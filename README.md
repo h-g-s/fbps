@@ -1,2 +1,2 @@
-# fbpt
-Feature Based Parameter Tuning Sofware and Data
+# fbps
+Feature Based Parameter/Algorithm Selection Sofware and Data
