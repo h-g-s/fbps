@@ -61,7 +61,7 @@ class Results:
         for exec in self.executions:
             exec.instance.results[exec.psetting.idx] = exec.result
 
-iset = InstanceSet('../cbc/instances/features.csv')
-r = Results(iset, '../cbc/relaxation/results.csv')
-print('{} executions read, {} instances and {} parameter settings'.format(
-    len(r.executions), len(iset.instances), len(r.psettings) ))
+#iset = InstanceSet('../cbc/instances/features.csv')
+#r = Results(iset, '../cbc/relaxation/results.csv')
+#print('{} executions read, {} instances and {} parameter settings'.format(
+#    len(r.executions), len(iset.instances), len(r.psettings) ))
