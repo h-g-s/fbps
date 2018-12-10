@@ -1,4 +1,5 @@
 import csv
+from typing import Tuple
 
 class Instance:    
     def __init__(self): 
@@ -44,7 +45,7 @@ class InstanceSet:
         return self.instByName[name]
 
 
-    def branch(self, featureIdx : int, value ):
+    def branch(self, featureIdx : int, value ) -> Tuple['InstanceSet', 'InstanceSet']:
         """ Splits this InstanceSet in two considering a feature and a value to branch """
 
         result = (InstanceSet(), InstanceSet())
@@ -93,6 +94,6 @@ def num_value( val ):
     return val
 
 
-iset = InstanceSet('/home/haroldo/git/fbps/data/instances/mip/features.csv')
-isets = iset.branch(0, 1000)
-print('left: {} right: {}'.format(len(isets[0].instances), len(isets[1].instances)))
+#iset = InstanceSet('../data/instances/mip/features.csv')
+#isets = iset.branch(0, 1000)
+#print('left: {} right: {}'.format(len(isets[0].instances), len(isets[1].instances)))
