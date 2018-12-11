@@ -5,6 +5,7 @@ class Instance:
     def __init__(self): 
         self.name = ''
         self.features = []
+        self.results = []
         
 class InstanceSet:
     def __init__(self, featuresFileName : str = ''):
@@ -97,3 +98,7 @@ def num_value( val ):
 #iset = InstanceSet('../data/instances/mip/features.csv')
 #isets = iset.branch(0, 1000)
 #print('left: {} right: {}'.format(len(isets[0].instances), len(isets[1].instances)))
+
+
+# vim: ts=4 sw=4 et
+

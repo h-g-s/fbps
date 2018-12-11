@@ -65,3 +65,6 @@ class Results:
 #r = Results(iset, '../cbc/relaxation/results.csv')
 #print('{} executions read, {} instances and {} parameter settings'.format(
 #    len(r.executions), len(iset.instances), len(r.psettings) ))
+
+
+# vim: ts=4 sw=4 et

@@ -33,23 +33,8 @@ class Node:
         self.level = depth
         self.idx = dtree.next_idx_level(self.level)
         self.node_id = 'N{}I{}'.format(self.level, self.idx)
+        self.parent = None
         
-        
-        
-        if depth == max_depth or len(self.instances) < min_inst_leaf:
-            self.bestPS = self.evaluate()
-        else:
-            gbranch = self.greedy_branch()
-            self.branch_feat_idx = gbranch[0]
-            self.branch_value = gbranch[1]
-            
-            for i, iset in enumerate(gbranch[2]):
-                new_node = Node(dtree, iset, results, depth+1, max_depth, min_inst_leaf)
-                new_node.idx = i
-                parentIdx = ''
-                
-                self.children_nodes.append(new_node)
-
 
     def evaluate( self, max_inst_samples : int = maxsize ) -> Tuple[PSetting, float] :
         """ Evaluates the best parameter setting for this
@@ -61,7 +46,6 @@ class Node:
             instances = sample(max_inst_samples)
 
         psettings = self.psettings
-
 
         bestPS = (None, inf)
         for ps in psettings:
@@ -78,6 +62,7 @@ class Node:
         
         result = (maxsize, None, [])
         bestCost = float('inf')
+        dtree = self.dtree
         
         # trying to branch in one feature
         for fidx in range(len(self.features)):
@@ -91,12 +76,17 @@ class Node:
             
             for val in values:
                 currCost = 0.0
-                print('testing feature {} value {} at depth {}'.format(fidx, val, self.depth))
+                #print('testing feature {} value {} at depth {}'.format(fidx, val, self.depth))
+
+                dtree.total_branches += 1
+                if (process_time()-dtree.last_msg_time>2):
+                    dtree.last_msg_time = process_time()
+                    print('\texploring branching nr. {}'.format(dtree.total_branches))
+
                 isets = self.iset.branch(fidx, val)
                 for iset in isets:
-                    evnode = Node(self.dtree, iset, self.results, 1, 1, 1)
-                    res = evnode.bestPS
-                    currCost += res[1]
+                    tempnode = Node(self.dtree, iset, self.results, 1, 1, 1)
+                    currCost += tempnode.evaluate()[1]
                     
                 if currCost<bestCost:
                     bestCost = currCost
@@ -105,15 +95,22 @@ class Node:
         return result
     
     
+        
+    
+    
     def draw( self, dot_graph : Digraph, parent_node : 'Node' = None ):
         if self.branch_feat_idx == maxsize:
             # no branch only instances and selected parameter
-            node_name=self.bestPS[0].setting
+            node_name=self.bestPS[0].setting + '\\n'
             for i, inst in enumerate(self.instances):
                     node_name += '\\n' + inst.name
  
                     if i==5:
+                        if len(self.instances)>6:
+                            node_name += '\\n... more {}'.format(len(self.instances)-(5+1))
                         break;
+                    
+                    
         else:
             node_name = self.iset.features[self.branch_feat_idx]
             
@@ -121,33 +118,94 @@ class Node:
         if parent_node!=None:
             feat_name = self.iset.features[parent_node.branch_feat_idx]
             edglabel = '{}'.format(feat_name)
+            strbranchvalue = str(parent_node.branch_value)
+            if n_decimal_places(strbranchvalue)>3:
+                strbranchvalue = '{:.3f}'.format(parent_node.branch_value)
             if self.idx % 2 == 0:
-                edglabel += '≤' + str(parent_node.branch_value)
+                edglabel += '≤' + strbranchvalue
             else:
-                edglabel += '>' + str(parent_node.branch_value)
+                edglabel += '>' + strbranchvalue
                 
             dot_graph.edge(parent_node.node_id, self.node_id, label=edglabel)
             
         for cn in self.children_nodes:
             cn.draw(dot_graph, self)
-            
-        
 
 
 class DTree:
     """ Decision tree builder for feature based algorithm/parameter setting selection"""
 
     def __init__( self, iset : InstanceSet, results : Results, 
-                 max_depth : int = 3, min_inst_leaf : int = 50):
+                 max_depth : int = 3, min_inst_leaf : int = 50, default_setting = ''):
         self.iset = iset
         self.results = results
         self.max_depth = max_depth
         self.min_inst_leaf = min_inst_leaf
+        self.default_setting = default_setting
         
+        # computing baseline of default settings
+        if len(default_setting):
+            self.default_time = 0.0
+            dps = results.psettingByName[default_setting].idx
+            for inst in iset.instances:
+                self.default_time += inst.results[dps]
+            strtime = str(self.default_time)
+            if n_decimal_places(strtime) > 3:
+                strtime = '{:.3f}'.format(self.default_time)
+            
+            print('default settings time: {}'.format(strtime))
+
+
+    def build(self):
+        self.total_branches = 0
+        self.start_time = process_time()
+        self.last_msg_time = process_time()
         self.idx_level = dict()
+        self.leafs = []
+        
+        min_inst_leaf = self.min_inst_leaf
+        max_depth = self.max_depth
+        results = self.results
+        iset = self.iset
+        
+        queue = list()
         self.root = Node(self, iset, results, 0, max_depth, min_inst_leaf)
         self.root.idx = 0
-        
+        queue.append(self.root)
+
+        while len(queue):
+            node = queue.pop()
+            
+            if node.depth == max_depth or len(node.instances) < min_inst_leaf:
+                node.bestPS = node.evaluate()
+                self.leafs.append( node )
+            else:
+                gbranch = node.greedy_branch()
+                
+                node.branch_feat_idx = gbranch[0]
+                node.branch_value = gbranch[1]
+                
+                for isetb in gbranch[2]:
+                    new_node = Node(self, isetb, results, node.depth+1, max_depth, min_inst_leaf)
+                    new_node.parent = node
+                    node.children_nodes.append(new_node)
+                    queue.append(new_node)
+ 
+        self.result_time = 0.0
+        instsLeaf = 0
+        #print('node leafs {}'.format(len(self.leafs)))
+        for nl in self.leafs:
+            #print('{} insts {}'.format(nl.node_id, len(nl.iset.instances)))
+            for inst in nl.iset.instances:
+                self.result_time += inst.results[nl.bestPS[0].idx]
+                instsLeaf += 1
+
+        if len(self.default_setting):
+            speedup = self.default_time/self.result_time
+            strdtreetime = str(self.result_time)
+            if n_decimal_places(strdtreetime)>3:
+                strdtreetime = '{:.3f}'.format(self.result_time)
+            print('total time with dtree: {} speedup of {:.3f} x '.format(strdtreetime, speedup))
 
 
     def next_idx_level( self, level : int ):
@@ -161,10 +219,36 @@ class DTree:
 
     def draw( self, dot_graph : Digraph, parent_node : 'Node' = None ):
         self.root.draw( dot_graph, None )
+
+        
+def n_decimal_places(cstr):
+    if '.' not in cstr:
+        return 0
+    
+    placesAfter = 0
+    pPoint = -1
+    for i, l in enumerate(cstr):
+        if not (l.isdigit() or l in '+-.'):
+            return 0
+        elif l=='.':
+            if pPoint != -1:
+                return 0
+            else:
+                pPoint = i
+        else:
+            if pPoint!=-1:
+                placesAfter += 1
+                
+    return placesAfter
+        
+            
+        
+        
+        
         
 
 if len(argv)<3:
-    print('usage: dtree instance_features_file experiments_results_file')
+    print('usage: dtree instance_features_file experiments_results_file [default-setting]')
     exit(1)
 
 out.write('loading problem instances ... ')
@@ -180,7 +264,18 @@ ed = process_time()
 out.write('results of {} different algorithm/parameter settings loaded in {:.2} seconds\n'.format(
     len(results.psettings), ed-st))
 
-tree = DTree( iset, results, 3, 50)
+default_setting = ''
+if len(argv)>3:
+    default_setting = argv[3]
+    if not default_setting in results.psettingByName:
+        print('execution results with default settings "{}" do not appear in the experiments'.format(default_setting))
+        exit(1)
+    
+print('building decision tree')
+
+tree = DTree( iset, results, 3, 50, default_setting)
+tree.build()
+
 g = Digraph()
 g.attr('node', shape='box')
 tree.draw(g)
@@ -188,3 +283,7 @@ g.render('dot', 'pdf', 'dtree.pdf')
 
 #node = Node(iset, results)
 #print('best overal setting: {}'.format(evres[0].setting))
+
+
+# vim: ts=4 sw=4 et
+
