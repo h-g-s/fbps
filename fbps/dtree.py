@@ -93,11 +93,8 @@ class Node:
                     result = (fidx, val, isets)
                     
         return result
-    
-    
-        
-    
-    
+
+
     def draw( self, dot_graph : Digraph, parent_node : 'Node' = None ):
         if self.branch_feat_idx == maxsize:
             # no branch only instances and selected parameter
@@ -240,15 +237,10 @@ def n_decimal_places(cstr):
                 placesAfter += 1
                 
     return placesAfter
-        
-            
-        
-        
-        
-        
 
-if len(argv)<3:
-    print('usage: dtree instance_features_file experiments_results_file [default-setting]')
+
+if len(argv)<4:
+    print('usage: dtree instance_features_file experiments_results_file max_depth [default-setting]')
     exit(1)
 
 out.write('loading problem instances ... ')
@@ -264,22 +256,24 @@ ed = process_time()
 out.write('results of {} different algorithm/parameter settings loaded in {:.2} seconds\n'.format(
     len(results.psettings), ed-st))
 
+max_depth = int(argv[3].strip())
+
 default_setting = ''
-if len(argv)>3:
-    default_setting = argv[3]
+if len(argv)>4:
+    default_setting = argv[4]
     if not default_setting in results.psettingByName:
         print('execution results with default settings "{}" do not appear in the experiments'.format(default_setting))
         exit(1)
     
 print('building decision tree')
 
-tree = DTree( iset, results, 3, 50, default_setting)
+tree = DTree( iset, results, max_depth, 50, default_setting)
 tree.build()
 
 g = Digraph()
 g.attr('node', shape='box')
 tree.draw(g)
-g.render('dot', 'pdf', 'dtree.pdf')
+g.render('dot', 'png', 'dtree.png')
 
 #node = Node(iset, results)
 #print('best overal setting: {}'.format(evres[0].setting))
