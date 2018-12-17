@@ -1,8 +1,8 @@
 # data/instances/mip/feature\_extraction
 
-This folder contains code to extract features from a Mixed-Integer Program
-stored in a .lp or .mps file (possibly compressed with gzip). It outputs
-problem features in a new line in the "features.csv" file.
+This folder contains code to extract features from a Mixed-Integer Linear
+Program stored in a .lp or .mps file (possibly compressed with gzip). It
+outputs problem features in a new line in the "features.csv" file.
 
 To build call:
 
