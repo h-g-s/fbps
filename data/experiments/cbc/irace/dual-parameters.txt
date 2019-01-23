@@ -1,0 +1,14 @@
+### Parameter file for the CBC
+# name				switch		     	type		values										[conditions (using R syntax)]	
+dualize				"dualize "		i		(0, 4)
+crash				"crash "		c		(off, on, so, lots, idiot1, idiot2, idiot3, idiot4, idiot5, idiot6, idiot7)
+dualp				"dualp "		c		(auto, dant, partial, steep, pesteep, pedantzig)
+psi				"psi "			r		(-1.1, 1.1)
+perturb				"perturb "		c		(on, off)
+presolve			"presolve "		c		(on, off, more)
+scal				"scal "			c		(off, equi, geo, auto, dynamics, rows)
+spars				"spars "		c		(on, off)
+pertv				"pertv "		i		(-5000, 102)
+passp				"passp "		i		(-200, 100)
+sprint				"sprint "		i		(-1, 5000)
+subs				"subs "			i		(0, 10000)
