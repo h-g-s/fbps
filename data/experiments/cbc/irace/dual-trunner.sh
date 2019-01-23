@@ -1,24 +1,21 @@
 #!/bin/bash
 ###############################################################################
-# This script is to tune the ACOTSP software.
+# This script is to tune the CLP solver software.
 #
 # PARAMETERS:
 # $1 is the ID of the candidate to be evaluated
 # $2 is the instance ID
 # $3 is the seed
 # $4 is the instance name
-# The rest ($* after `shift 4') are parameters for running ACOTSP
+# The rest ($* after `shift 4') are parameters 
 #
 # RETURN VALUE:
 # This script should print a single numerical value (the value to be minimized).
 ###############################################################################
 
-# Path to the ACOTSP software:
-chmod +x /home/haroldo/matheus/tuning/runcbcrootirace.sh
-EXE=/home/haroldo/matheus/tuning/./runcbcrootirace.sh
-
-# Fixed parameters that should be always passed to ACOTSP.
-# The time to be used is always 5 seconds, and we want only one run:
+expFolder=~/git/fbps/data/experiments/cbc/irace
+cd $expFolder
+EXE=${expFolder}/runcbcrootirace.sh
 
 CONFIG_ID="$1"
 INSTANCE_ID="$2"
@@ -41,14 +38,12 @@ if [ ! -x "${EXE}" ]; then
     error "${EXE}: not found or not executable (pwd: $(pwd))"
 fi
 
-# Now we can call ACOTSP by building a command line with all parameters for it
-#ulimit -t 72
-$EXE $INSTANCE ${CONFIG_PARAMS} duals solve 1> $STDOUT 2> $STDERR
-#EXE $INSTANCE ${FIXED_PARAMS} ${CONFIG_PARAMS} solve > $STTESTE
-#$EXE1 1> $STDOUT 2> $STDERR
+#echo will run  $EXE $INSTANCE -randomSeed ${SEED} ${CONFIG_PARAMS} duals
+
+$EXE $INSTANCE -randomSeed ${SEED} ${CONFIG_PARAMS} duals 1> $STDOUT 2> $STDERR
 
 # The output of the candidate $CONFIG_ID should be written in the file 
-# c${CONFIG_ID}.stdout (see target runner for ACOTSP).
+# c${CONFIG_ID}.stdout 
 # Does this file exist?
 if [ ! -s "${STDOUT}" ]; then
     # In this case, the file does not exist. Let's exit with a value 
@@ -56,19 +51,23 @@ if [ ! -s "${STDOUT}" ]; then
     error "${STDOUT}: No such file or directory"
 fi
 
-# Ok, the file exist. It contains the whole output written by ACOTSP.
+# Ok, the file exist. It contains the whole output 
 # This script should return a single numerical value, the best objective 
-# value found by this run of ACOTSP. The following line is to extract
-# this value from the file containing ACOTSP output.
-#COST=$(cat ${STDOUT} | grep -o -E 'Best [-+0-9.e]+' | cut -d ' ' -f2)
-#if ! [[ "$COST" =~ ^[-+0-9.e]+$ ]] ; then
-#    error "${STDOUT}: Output is not a number"
-#fi
-COST=$(tail -1 ${STDOUT})
-# Print it!
-echo "$COST"
+# value found by this run. The following line is to extract
+# this value from the file containing the output.
+
+#echo FILE:
+#cat ${STDOUT}
+COST=$(cat ${STDOUT} | grep -o -E 'Best [-+0-9.e]+' | cut -d ' ' -f2)
+if ! [[ "$COST" =~ ^[-+0-9.e]+$ ]] ; then
+    error "${STDOUT}: Output is not a number"
+fi
+echo "$COST" 0
 
 # We are done with our duty. Clean files and exit with 0 (no error).
-#rm -f "${STDOUT}" "${STDERR}"
+rm -f "${STDOUT}"
+if [ ! -s ${STDERR} ]; then
+    rm -f ${STDERR}
+fi
 rm -f best.* stat.* cmp.*
 exit 0
