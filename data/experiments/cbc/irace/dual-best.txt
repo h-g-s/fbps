@@ -1,0 +1,2 @@
+dualize	crash	dualp	psi	perturb	presolve	scal spars pertv passp sprint subs
+	  3	off		pesteep 1.0 on		on       	auto on    52    5     -1     3
