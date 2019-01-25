@@ -279,6 +279,15 @@ print('building decision tree')
 tree = DTree( iset, results, max_depth, 50, default_setting)
 tree.build()
 
+for nl in tree.leafs:
+    ps = nl.bestPS[0]
+    print('PS:')
+    print(ps)
+    f = open('instances-{}'.format(ps.setting), 'w')
+    for inst in nl.instances:
+        f.write('{}.mps.gz\n'.format(inst.name))
+    f.close()
+    
 g = Digraph()
 g.attr('node', shape='box')
 tree.draw(g)
