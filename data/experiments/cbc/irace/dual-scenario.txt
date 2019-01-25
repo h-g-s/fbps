@@ -18,8 +18,6 @@ execDir = "/home/haroldo/git/fbps/data/experiments/cbc/irace/"
 ## determines the (maximum) budget of experiments for the tuning.
 #maxExperiments = 5000 
 
-maxTime = 7200
-
 #testInstancesDir = "./instances-lr"
 #testInstancesFile = "./test1-lr.txt" 
 
@@ -28,8 +26,6 @@ trainInstancesDir = "/home/haroldo/git/fbps/data/instances/mip/"
 trainInstancesFile = "./small-instances.txt"
 
 configurationsFile="./dual-default.txt" 
-
-parallel=5
 
 ## Indicates the number of decimal places to be considered for the
 ## real parameters.

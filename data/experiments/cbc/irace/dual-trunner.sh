@@ -40,7 +40,9 @@ fi
 
 #echo will run  $EXE $INSTANCE -randomSeed ${SEED} ${CONFIG_PARAMS} duals
 
+startTime=$SECONDS
 $EXE $INSTANCE -randomSeed ${SEED} ${CONFIG_PARAMS} duals 1> $STDOUT 2> $STDERR
+totalTime=$(($SECONDS - $startTime + 1))
 
 # The output of the candidate $CONFIG_ID should be written in the file 
 # c${CONFIG_ID}.stdout 
@@ -62,7 +64,12 @@ COST=$(cat ${STDOUT} | grep -o -E 'Best [-+0-9.e]+' | cut -d ' ' -f2)
 if ! [[ "$COST" =~ ^[-+0-9.e]+$ ]] ; then
     error "${STDOUT}: Output is not a number"
 fi
-echo "$COST" 0
+
+if (( $(echo "$COST < 3000" |bc -l) )); then
+  totalTime=$COST
+fi
+
+echo "$COST" "$totalTime"
 
 # We are done with our duty. Clean files and exit with 0 (no error).
 rm -f "${STDOUT}"
