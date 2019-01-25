@@ -9,6 +9,9 @@ from sys import stdout as out, argv
 from time import process_time
 from graphviz import Digraph
 
+# penalize nodes with few samples
+minSamplesNode = 70
+
 class Node:
     """ A node in the decision tree for parameter selection """
 
@@ -47,13 +50,19 @@ class Node:
 
         psettings = self.psettings
 
+        penaltyMult = 1.0
+        addP = max(0, (minSamplesNode-len(self.instances)))
+        penaltyMult += ((addP)/100.0)
+
         bestPS = (None, inf)
         for ps in psettings:
             evps = 0.0
             for inst in instances:
                 evps += inst.results[ps.idx]
-            if evps < bestPS[1]:
-                bestPS = (ps, evps)
+
+            rev = evps*penaltyMult
+            if rev < bestPS[1]:
+                bestPS = (ps, rev)
 
         return bestPS
     
@@ -117,7 +126,7 @@ class Node:
             edglabel = '{}'.format(feat_name)
             strbranchvalue = str(parent_node.branch_value)
             if n_decimal_places(strbranchvalue)>3:
-                strbranchvalue = '{:.3f}'.format(parent_node.branch_value)
+                strbranchvalue = '{:.7f}'.format(parent_node.branch_value)
             if self.idx % 2 == 0:
                 edglabel += '≤' + strbranchvalue
             else:
