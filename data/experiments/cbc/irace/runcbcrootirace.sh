@@ -20,15 +20,9 @@ errorfile="${iname}${params}.error"
 errorfile=${outfile/--/-m}
 cbcExe=/opt/cbcopt/bin/cbc
 
-if [ -s $outfile ]; 
-then
-    exit
-fi
-
 rvalue=`cat relaxvalues.csv | grep -i "${iname}.mps.gz," | cut -d ',' -f 2`
 
 #echo relaxvalue: $rvalue
-
 
 rm -f "$outfile"
 
