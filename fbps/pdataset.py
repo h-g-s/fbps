@@ -5,6 +5,7 @@ from math import inf
 import random
 from collections import defaultdict
 
+
 # reads a performance dataset, in the format
 # instance,instanceFeature1,instanceFeature2,...,strategy,cost
 class PDataset:
@@ -16,7 +17,7 @@ class PDataset:
 		self.idxFeatures = []
 		
 	# returns a set of candidate branchings
-	def candidate_branchings(complete : bool = False) -> List[Tuple[int,Any]]:
+	def candidate_branchings(self, complete : bool = False) -> List[Tuple[int,Any]]:
 		n=len(self.data)
 		m=len(self.idxFeatures)
 		res=set()
@@ -26,9 +27,9 @@ class PDataset:
 					res.append(idxf, data[i][idxf])
 		else:
 			for it in range(2000):
-				i=randint(n)
+				i=randint(0, n)
 				idxf=random.choice(self.idxFeatures)
-				res.add(idxf, self.data[i][idxf])
+				res.add((idxf, self.data[i][idxf]))
 
 		return list(res)
 
@@ -54,6 +55,8 @@ class PDataset:
 				res[1].included.append(i)
 
 		assert len(res[0].included) + len(res[1].included) == len(self.included)
+
+		return res
 
 
 	# evaluates the best single strategy for this dataset
@@ -92,13 +95,13 @@ def read_pdataset(fileName : str, maxRecords : int = inf) -> PDataset:
 			nl[i] = num_value(col)
 		if time()-lastMsg>3:
 			lastMsg=time()
-			print('\t... {:10} records read'.format(len(data)))
+			print('\t... {:9} records read'.format(len(data)))
 
 		data.append(nl)
 		if len(data)>maxRecords:
 			break
 	f.close()
-	print('\t    {:10} records read'.format(len(data)))
+	print('\t    {:9} records read'.format(len(data)))
 
 	res = PDataset()
 	res.data = data
@@ -127,6 +130,6 @@ def num_value( val ):
 
     return val
 
-ds=read_pdataset('/home/haroldo/git/fbps/data/experiments/diving/diving.csv')
-print(ds.evaluate())
-print('hi')
+#ds=read_pdataset('/home/haroldo/git/fbps/data/experiments/diving/diving.csv')
+#print(ds.evaluate())
+#print('hi')
