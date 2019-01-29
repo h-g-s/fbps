@@ -26,7 +26,7 @@ class PDataset:
 				for idxf in self.idxFeatures:
 					res.append(idxf, data[i][idxf])
 		else:
-			for it in range(2000):
+			for it in range(4000):
 				i=randint(0, n)
 				idxf=random.choice(self.idxFeatures)
 				res.add((idxf, self.data[i][idxf]))
@@ -76,6 +76,23 @@ class PDataset:
 				bestAV = (st, av)
 
 		return bestAV
+
+	# returns a rank from all strategies
+	def ranked_strategies(self) -> List[Tuple[str, float]] :
+		strategyCost = defaultdict( lambda : (int(0), float(0.0)) )
+		for i in self.included:
+			st = self.data[i][len(self.header)-2]
+			stres = strategyCost[st]
+			curcost = self.data[i][len(self.header)-1]
+			strategyCost[st] = (stres[0]+1, stres[1]+curcost)
+
+		res = []
+		for st, c in strategyCost:
+			res.append( st, c[1]/c[0] )
+
+		res = sorted(res,key=lambda x: x[1])
+
+		return res
 
 
 def read_pdataset(fileName : str, maxRecords : int = inf) -> PDataset:

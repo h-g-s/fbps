@@ -7,7 +7,9 @@ from graphviz import Digraph
 # from [0, 1] how unballanced trees should be penalized
 PENALTY_UNBALANCED = 0.2
 
-MAX_DEPTH = 3
+MAX_DEPTH = 5
+
+MIN_NODE_ELEMENTS = 15000
 
 TOTAL_NODES_BRANCH = sum(2**d for d in range(MAX_DEPTH-1) )
 
@@ -107,25 +109,50 @@ root.strategy = root.dataset.evaluate()
 root.depth = 1
 root.idx = 0
 queue = [root]
+leafs = []
 nodesLevel = defaultdict( lambda : int(0) )
 while queue:
 	node = queue.pop()
+	branched = True
 	if node.depth < MAX_DEPTH:
+		# tentative branch
 		node.perform_best_branch()
-		for i,nc in enumerate(node.children):
-			nc.parent = node
-			nc.depth = node.depth + 1
-			nc.idx = nodesLevel[nc.depth]
-			nodesLevel[nc.depth] += 1
-			queue.append(nc)
+		# checking if too few elements in children
+		minEl = min( len(ch.included) for ch in node.children )
+		if ( minEl < MIN_NODE_ELEMENTS ):
+			branched = False
+			node.children.clear()
+		else:
+			for i,nc in enumerate(node.children):
+				nc.parent = node
+				nc.depth = node.depth + 1
+				nc.idx = nodesLevel[nc.depth]
+				nodesLevel[nc.depth] += 1
+				queue.append(nc)
 	else:
+		branched = False
+
+	if not branched:
 		node.strategy = node.dataset.evaluate()
+		leafs.append( node )
+
 	node.update_id()
-
-print('hi')
-
 
 g = Digraph()
 g.attr('node', shape='box')
 root.draw(g)
 g.render('dot', 'png', 'pdtree.png')
+
+for i,leaf in enumerate(leafs):
+	f = open('leaf{}'.format(i), 'w')
+	
+	f.write('{}\n'.format(leaf.depth))
+	while node != None:
+		f.write('{},{}\n'.format(node.branch[0][0], node.branch[0][1]))
+		node = node.parent
+	f.write('{}'.format(leaf.dataset.included))
+	stcost = leaf.dataset.ranked_strategies()
+	for stc in stcost:
+		f.write('{},{}\n'.format(stc[0], stc[1]))
+	f.close()
+
