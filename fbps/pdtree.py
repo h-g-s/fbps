@@ -150,7 +150,7 @@ for i,leaf in enumerate(leafs):
 	while node != None:
 		f.write('{},{}\n'.format(node.branch[0][0], node.branch[0][1]))
 		node = node.parent
-	f.write('{}\n'.format(leaf.dataset.included))
+	f.write('{}\n'.format(len(leaf.dataset.included)))
 	stcost = leaf.dataset.ranked_strategies()
 	for stc in stcost:
 		f.write('{},{}\n'.format(stc[0], stc[1]))
