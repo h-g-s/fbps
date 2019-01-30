@@ -134,31 +134,32 @@ queue = [root]
 leafs = []
 nodesLevel = defaultdict( lambda : int(0) )
 while queue:
-	node = queue.pop()
-	branched = True
-	if node.depth < max_depth:
-		# tentative branch
-		node.perform_best_branch()
-		# checking if too few elements in children
-		minEl = min( len(ch.dataset.included) for ch in node.children )
-		if ( minEl < min_node_elements ):
-			branched = False
-			node.children.clear()
-		else:
-			for i,nc in enumerate(node.children):
-				nc.parent = node
-				nc.depth = node.depth + 1
-				nc.idx = nodesLevel[nc.depth]
-				nodesLevel[nc.depth] += 1
-				queue.append(nc)
-	else:
-		branched = False
-
-	if not branched:
-		node.strategy = node.dataset.evaluate()
-		leafs.append( node )
-
-	node.update_id()
+    node = queue.pop()
+    branched = True
+    if node.depth < max_depth:
+    	# tentative branch
+    	node.perform_best_branch()
+    	# checking if too few elements in children
+    	minEl = min( len(ch.dataset.included) for ch in node.children )
+    	if ( minEl < min_node_elements ):
+            branched = False
+            node.children.clear()
+            node.branch = None
+    	else:
+    		for i,nc in enumerate(node.children):
+    			nc.parent = node
+    			nc.depth = node.depth + 1
+    			nc.idx = nodesLevel[nc.depth]
+    			nodesLevel[nc.depth] += 1
+    			queue.append(nc)
+    else:
+    	branched = False
+    
+    if not branched:
+    	node.strategy = node.dataset.evaluate()
+    	leafs.append( node )
+    
+    node.update_id()
 
 g = Digraph()
 g.attr('node', shape='box')
@@ -168,13 +169,14 @@ g.render('dot', 'png', 'pdtree.png')
 for i,leaf in enumerate(leafs):
 	f = open('leaf{}'.format(i), 'w')
 	
-	f.write('{}\n'.format(leaf.depth))
+	f.write('>{}\n'.format(leaf.depth))
 	while node != None:
-		f.write('{},{}\n'.format(node.branch[0][0], node.branch[0][1]))
+		if node.branch != None:
+			f.write(']{},{}\n'.format(node.branch[0][0], node.branch[0][1]))
 		node = node.parent
-	f.write('{}\n'.format(len(leaf.dataset.included)))
+	f.write('){}\n'.format(len(leaf.dataset.included)))
 	stcost = leaf.dataset.ranked_strategies()
 	for stc in stcost:
-		f.write('{},{}\n'.format(stc[0], stc[1]))
+		f.write('}{},{}\n'.format(stc[0], stc[1]))
 	f.close()
 
