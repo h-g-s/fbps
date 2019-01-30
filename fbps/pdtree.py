@@ -100,7 +100,7 @@ if len(argv)<2:
 print('Reading dataset')
 processedNodes = 0
 procn = 0
-ds = read_pdataset(argv[1])
+ds = read_pdataset(argv[1], 300000)
 
 print('Creating decision tree')
 lastMessage = time()
@@ -118,7 +118,7 @@ while queue:
 		# tentative branch
 		node.perform_best_branch()
 		# checking if too few elements in children
-		minEl = min( len(ch.included) for ch in node.children )
+		minEl = min( len(ch.dataset.included) for ch in node.children )
 		if ( minEl < MIN_NODE_ELEMENTS ):
 			branched = False
 			node.children.clear()
@@ -150,7 +150,7 @@ for i,leaf in enumerate(leafs):
 	while node != None:
 		f.write('{},{}\n'.format(node.branch[0][0], node.branch[0][1]))
 		node = node.parent
-	f.write('{}'.format(leaf.dataset.included))
+	f.write('{}\n'.format(leaf.dataset.included))
 	stcost = leaf.dataset.ranked_strategies()
 	for stc in stcost:
 		f.write('{},{}\n'.format(stc[0], stc[1]))

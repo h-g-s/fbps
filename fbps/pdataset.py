@@ -87,8 +87,8 @@ class PDataset:
 			strategyCost[st] = (stres[0]+1, stres[1]+curcost)
 
 		res = []
-		for st, c in strategyCost:
-			res.append( st, c[1]/c[0] )
+		for st, c in strategyCost.items():
+			res.append( (st, c[1]/c[0]) )
 
 		res = sorted(res,key=lambda x: x[1])
 
