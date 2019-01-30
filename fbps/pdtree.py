@@ -3,15 +3,37 @@ from time import time
 from math import inf
 from sys import argv
 from graphviz import Digraph
+from typing import List
 
 # from [0, 1] how unballanced trees should be penalized
-PENALTY_UNBALANCED = 0.2
+penalty_unbalanced = 0.2
 
-MAX_DEPTH = 5
+max_depth = 5
 
-MIN_NODE_ELEMENTS = 15000
+min_node_elements = 15000
 
-TOTAL_NODES_BRANCH = sum(2**d for d in range(MAX_DEPTH-1) )
+MAX_NODES_TREE = sum(2**d for d in range(max_depth-1) )
+
+def parse_arguments( argv : List[str] ):
+    for arg in argv:
+        if arg.startswith('-'):
+            pname = arg.split('-')[1].lower().lstrip().rstrip()
+            pvalue = None
+            if '=' in pname:
+                pvalue = arg.split('=')[1]
+            if pname=='maxDepth':
+                max_depth = int(pvalue)
+            elif pname=='penaltyUnbalanced':
+                penalty_unbalanced = float(pvalue)
+            elif pname=='minNodeElements':
+                min_node_elements = int(pvalue)
+
+def help():
+    print('pdtree dataset [options]')
+    print('options')
+    print('\t-maxDepth=int, default {} : maximum tree depth'.format(max_depth))
+    print('\t-penaltyUnbalanced=float [0,1], default {} : strength of penalty for unbalanced trees'.format(penalty_unbalanced))
+    print('\t-minNodeElements=int, default{} : minimum required number of records in node'.format(min_node_elements))
 
 class Node:
 	def __init__(self, dataset_ : PDataset):
@@ -57,7 +79,7 @@ class Node:
 			minEl = min( len(datasets[0].included), len(datasets[1].included) )
 			blcd = len(self.dataset.included)/2
 			missing = (blcd - minEl) + 1
-			penalty = (missing/blcd)*PENALTY_UNBALANCED*(abs(av))
+			penalty = (missing/blcd)*penalty_unbalanced*(abs(av))
 			av += penalty
 
 			if av < bestBranch[1]:
@@ -67,7 +89,7 @@ class Node:
 
 			processedNodes += 1.0/(len(candidates))
 			if time()-lastMessage>3:
-				perc = processedNodes / TOTAL_NODES_BRANCH
+				perc = processedNodes / MAX_NODES_TREE
 				lastMessage = time()
 				print("\t ... {:3.3f}%".format(perc*100))
 
@@ -94,8 +116,8 @@ class Node:
 			cn.draw(graph)
 
 if len(argv)<2:
-	print('enter dataset name')
-	exit()
+    help()
+    exit()
 
 print('Reading dataset')
 processedNodes = 0
@@ -114,12 +136,12 @@ nodesLevel = defaultdict( lambda : int(0) )
 while queue:
 	node = queue.pop()
 	branched = True
-	if node.depth < MAX_DEPTH:
+	if node.depth < max_depth:
 		# tentative branch
 		node.perform_best_branch()
 		# checking if too few elements in children
 		minEl = min( len(ch.dataset.included) for ch in node.children )
-		if ( minEl < MIN_NODE_ELEMENTS ):
+		if ( minEl < min_node_elements ):
 			branched = False
 			node.children.clear()
 		else:
