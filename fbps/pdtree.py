@@ -5,8 +5,14 @@ from sys import argv
 from graphviz import Digraph
 from typing import List
 
-# from [0, 1] how unballanced trees should be penalized
-penalty_unbalanced = 0.2
+
+# min_unbalance_penalization 
+# if one side of the branch is  min_unbalance_penalization 
+# or more larger than the another, penalization is activated
+max_unbalance_without_penalty = 3
+
+# from [0, 1] how unballanced trees should be penalized 
+#penalty_unbalanced = 0.2
 
 max_depth = 5
 
@@ -35,6 +41,11 @@ def help():
     print('\t-penaltyUnbalanced=float [0,1], default {} : strength of penalty for unbalanced trees'.format(penalty_unbalanced))
     print('\t-minNodeElements=int, default{} : minimum required number of records in node'.format(min_node_elements))
 
+def print_parameters():
+	print('parameters:')
+	print('\tmaxDepth: {}'.format(max_depth))
+	print('\tminNodeElements: {}'.format(min_node_elements))
+
 class Node:
 	def __init__(self, dataset_ : PDataset):
 		self.dataset = dataset_
@@ -46,6 +57,12 @@ class Node:
 		self.idx = 0
 		self.name = ''
 		self.label = ''
+
+	def at_left(self, other : 'Node') -> bool:
+		if self.children:
+			return self.children[0] == other
+
+		return False
 
 	# update name and label
 	def update_id(self):
@@ -73,14 +90,18 @@ class Node:
 				continue
 			
 			res = [ds.evaluate() for ds in datasets]
-			av = sum( r[1] for r in res ) / len(res)
+			av = sum( r[1]/len(datasets[i].included) for i,r in enumerate(res) )
 
-			# checking for unbalanced tree
-			minEl = min( len(datasets[0].included), len(datasets[1].included) )
-			blcd = len(self.dataset.included)/2
-			missing = (blcd - minEl) + 1
-			penalty = (missing/blcd)*penalty_unbalanced*(abs(av))
-			av += penalty
+			minEl = min( len(d.included) for d in datasets )
+			maxEl = max( len(d.included) for d in datasets )
+
+			ratio = maxEl/minEl
+			if ratio > max_unbalance_without_penalty:
+				divv = 1 + ratio - max_unbalance_without_penalty
+				if av<0 :
+					av = av / divv
+				else:
+					av = av * divv
 
 			if av < bestBranch[1]:
 				bestBranch = (candb, av)
@@ -119,10 +140,12 @@ if len(argv)<2:
     help()
     exit()
 
+parse_arguments( argv )
+
 print('Reading dataset')
 processedNodes = 0
 procn = 0
-ds = read_pdataset(argv[1], 300000)
+ds = read_pdataset(argv[1])
 
 print('Creating decision tree')
 lastMessage = time()
@@ -170,13 +193,19 @@ for i,leaf in enumerate(leafs):
 	f = open('leaf{}'.format(i), 'w')
 	
 	f.write('>{}\n'.format(leaf.depth))
+	prevNode = None
+	node = leaf
 	while node != None:
 		if node.branch != None:
-			f.write(']{},{}\n'.format(node.branch[0][0], node.branch[0][1]))
+			if node.at_left(prevNode):
+				f.write(']{},<=,{}\n'.format(node.branch[0][0], node.branch[0][1]))
+			else:
+				f.write(']{},>,{}\n'.format(node.branch[0][0], node.branch[0][1]))
+		prevNode = node
 		node = node.parent
 	f.write('){}\n'.format(len(leaf.dataset.included)))
 	stcost = leaf.dataset.ranked_strategies()
 	for stc in stcost:
-		f.write('}{},{}\n'.format(stc[0], stc[1]))
+		f.write(':{},{}\n'.format(stc[0], stc[1]))
 	f.close()
 
