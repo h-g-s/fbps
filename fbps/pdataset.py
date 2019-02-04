@@ -15,6 +15,7 @@ class PDataset:
 		self.features = []
 		self.included = []
 		self.idxFeatures = []
+		self.valuesFeature = []
 		
 	# returns a set of candidate branchings
 	def candidate_branchings(self, complete : bool = False) -> List[Tuple[int,Any]]:
@@ -24,7 +25,7 @@ class PDataset:
 		if complete or n*m<20000:
 			for i in range(n):
 				for idxf in self.idxFeatures:
-					res.append(idxf, data[i][idxf])
+					res.add((idxf, self.data[i][idxf]))
 		else:
 			for it in range(4000):
 				i=randint(0, n)
@@ -38,6 +39,7 @@ class PDataset:
 		for i in range(2):
 			res[i].data = self.data
 			res[i].header = self.header
+			res[i].valuesFeature = self.valuesFeature
 			res[i].features = self.features
 			res[i].idxFeatures = self.idxFeatures
 			res[i].included = []
@@ -105,11 +107,15 @@ def read_pdataset(fileName : str, maxRecords : int = inf) -> PDataset:
 	fline=f.readline()
 	header=fline.lstrip().rstrip().split(';')
 	features=header[1: len(header)-2]
+	valuesFeature = [ defaultdict( lambda : 0 ) for idxFeature in range(len(header)-1) ]
+	
 	idxFeatures=range(1, len(features)-2)
 	for line in f:
 		nl=line.lstrip().rstrip().split(';')
 		for i,col in enumerate(nl):
 			nl[i] = num_value(col)
+		for i in range(len(features)):
+			valuesFeature[i+1][nl[i+1]] += 1
 		if time()-lastMsg>3:
 			lastMsg=time()
 			print('\t... {:9} records read'.format(len(data)))
@@ -126,6 +132,7 @@ def read_pdataset(fileName : str, maxRecords : int = inf) -> PDataset:
 	res.features = features
 	res.included = range(0, len(data))
 	res.idxFeatures = idxFeatures
+	res.valuesFeature = valuesFeature
 
 	return res
 
