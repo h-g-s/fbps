@@ -6,7 +6,7 @@ dualp				"dualp "		c	(auto, dant, partial, steep, pesteep, pedantzig)
 psi					"psi "			r	(-1.1, 1.1)												| dualp == "pesteep" 
 perturb				"perturb "		c	(on, off)
 presolve			"presolve "		c	(on, off, more)
-scal				"scal "			c	(off, equi, geo, auto, dynamics, rows)
+scal				"scal "			c	(off, equi, geo, auto, dynamic, rows)
 spars				"spars "		c	(on, off)
 pertv				"pertv "		i	(-5000, 102)                                        	| perturb == "on"
 passp				"passp "		i	(-200, 100)                                         	| presolve == "on" | presolve == "more"
