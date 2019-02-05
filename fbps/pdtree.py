@@ -92,13 +92,13 @@ class Node:
 		global lastMessage
 		global procn
 		
-		complete_eval = False
-		if (self.depth == max_depth-1):
-			complete_eval = True
+		#complete_eval = False
+		#if (self.depth == max_depth-1):
+		#	complete_eval = True
 
-		print('processing note at depth {} complete : {}'.format(self.depth, complete_eval))
+		print('processing node at depth {}'.format(self.depth))
 		
-		candidates = self.dataset.candidate_branchings( complete_eval )
+		candidates = self.dataset.candidate_branchings( )
 
 		bestBranch = (None, inf)
 		bestSplit = None
@@ -166,7 +166,7 @@ print_parameters()
 print('Reading dataset')
 processedNodes = 0
 procn = 0
-ds = read_pdataset(argv[1])
+ds = read_pdataset(argv[1], inf, min_node_elements)
 
 print('Creating decision tree')
 lastMessage = time()
