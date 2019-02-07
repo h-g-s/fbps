@@ -160,15 +160,17 @@ def read_pdataset(fileName : str, maxRecords : int = inf, min_node_elements : in
 	fline=f.readline()
 	header=fline.lstrip().rstrip().split(';')
 	features=header[1: len(header)-2]
-	valuesFeature = [ defaultdict( lambda : 0 ) for idxFeature in range(len(header)-1) ]
+	#valuesFeature = [ defaultdict( lambda : 0 ) for idxFeature in range(len(header)-1) ]
 	
 	idxFeatures=range(1, len(features)-2)
 	for line in f:
 		nl=line.lstrip().rstrip().split(';')
+		if len(nl)<=1:
+			continue
 		for i,col in enumerate(nl):
 			nl[i] = num_value(col)
-		for i in range(len(features)):
-			valuesFeature[i+1][nl[i+1]] += 1
+		#for i in range(len(features)):
+		#	valuesFeature[i+1][nl[i+1]] += 1
 		if time()-lastMsg>3:
 			lastMsg=time()
 			print('\t... {:9} records read'.format(len(data)))
@@ -185,7 +187,7 @@ def read_pdataset(fileName : str, maxRecords : int = inf, min_node_elements : in
 	res.features = features
 	res.included = range(0, len(data))
 	res.idxFeatures = idxFeatures
-	res.valuesFeature = valuesFeature
+	#res.valuesFeature = valuesFeature
 	
 	stdout.write('Shuffling data ... ') 
 	stdout.flush()
