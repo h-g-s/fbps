@@ -1,9 +1,11 @@
 from pdataset import *
+import pdataset
 from time import time
 from math import inf
 from sys import argv
 from graphviz import Digraph
 from typing import List
+from multiprocessing import Pool
 
 
 # min_unbalance_penalization 
@@ -59,6 +61,7 @@ def print_parameters():
 	print('\tmaxDepth: {}'.format(max_depth))
 	print('\tminNodeElements: {}'.format(min_node_elements))
 
+
 class Node:
 	def __init__(self, dataset_ : PDataset):
 		self.dataset = dataset_
@@ -99,6 +102,13 @@ class Node:
 		print('processing node at depth {}'.format(self.depth))
 		
 		candidates = self.dataset.candidate_branchings( )
+
+		if __name__ == '__main__':
+			processors = Pool(4)
+			params = [ (self.dataset, idxf, vf) for idxf, vf in candidates ]
+			results = processors.map( pdataset.evaluate_candidate_branching, params )
+
+		print(results)
 
 		bestBranch = (None, inf)
 		bestSplit = None
@@ -167,6 +177,7 @@ print('Reading dataset')
 processedNodes = 0
 procn = 0
 ds = read_pdataset(argv[1], inf, min_node_elements)
+ds.max_unbalance_without_penalty = max_unbalance_without_penalty
 
 print('Creating decision tree')
 lastMessage = time()
