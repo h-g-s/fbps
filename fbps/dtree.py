@@ -252,11 +252,11 @@ if len(argv)<4:
     print('usage: dtree instance_features_file experiments_results_file max_depth [default-setting]')
     exit(1)
 
-out.write('loading problem instances ... ')
+out.write('loading problem instances ... \n')
 st = process_time()
 iset = InstanceSet(argv[1])
 ed = process_time()
-out.write('{} instances loaded in {:.2f} seconds\n'.format(len(iset.instances), ed-st))
+out.write('{} instances with {} features loaded in {:.2f} seconds\n'.format(len(iset.instances), len(iset.features), ed-st))
 
 st = process_time()
 out.write('loading experiment results ... ')

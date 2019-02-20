@@ -1,5 +1,7 @@
 import csv
 from typing import Tuple
+from collections import defaultdict
+from sys import stdout
 
 class Instance:    
     def __init__(self): 
@@ -22,6 +24,10 @@ class InstanceSet:
                             raise Exception('It seems that the features csv data file is not in the appropriate format, please use "," as separator.')
                             
                         self.features = row[1:]
+                        for idx in range(0, len(self.features)):
+                            self.features[idx] = self.features[idx].strip()
+                        self.featureValues = [defaultdict(int) 
+                                for i in range(0, len(self.features)+1)]
                         
                     else:
                         if len(row) != len(self.features)+1:
@@ -30,6 +36,7 @@ class InstanceSet:
                         # converts if possible
                         for i in range(1, len(row)):
                             row[i] = num_value(row[i])
+                            self.featureValues[i-1][row[i]] += 1
                         
                         inst = Instance()
                         inst.name = row[0]
@@ -38,6 +45,33 @@ class InstanceSet:
                         if inst.name in self.instByName:
                             raise Exception('Instance {} appears twice.', inst.name)
                         self.instByName[inst.name] = inst
+
+            deletedFeatures = []
+
+            #print('different values for features:')
+            for i in range(0, len(self.features)):
+                #print('{}: {}'.format(self.features[i], len(self.featureValues[i])))
+                if len(self.featureValues[i])==1:
+                    deletedFeatures.append(i)
+                    #print('feature {} will be deleted because all values are the same.'.format(self.features[i]))
+
+            if deletedFeatures:
+                stdout.write('The following features will be deleted because they have the same value in all instances: [')
+                space = False
+                for idxf in deletedFeatures:
+                    if space:
+                        stdout.write(', ')
+                    stdout.write('{}'.format(self.features[idxf]))
+                    space = True
+                stdout.write(']\n')
+                
+
+            for idx in sorted(deletedFeatures, reverse=True):
+                del self.features[idx]
+                del self.featureValues[idx]
+                for inst in self.instances:
+                    del inst.features[idx]
+            
 
 
     def by_name( self, name: str ):
