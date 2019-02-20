@@ -1,7 +1,20 @@
 import csv
-from typing import Tuple
+from typing import Tuple, List
 from collections import defaultdict
 from sys import stdout
+from math import inf, floor
+
+def difv(v1, v2):
+    if isinstance(v1, str) or isinstance(v2, str):
+        if v1<=v2:
+            return 9000000000
+        else:
+            return -9000000000
+
+    # both numeric
+    return v1-v2
+
+
 
 class Instance:    
     def __init__(self): 
@@ -10,10 +23,15 @@ class Instance:
         self.results = []
         
 class InstanceSet:
-    def __init__(self, featuresFileName : str = ''):
+    def __init__(self, featuresFileName : str = '', min_instances_node : int = 5):
         self.instances = []
         self.features = []
         self.instByName = dict()
+        self.featureValues = []
+
+        # not all feature values are valid branching options, 
+        # if the branching leaves to few options in one side
+        self.branchingOptions = []
         
         if len(featuresFileName):
             with open( featuresFileName ) as fcsv:
@@ -56,7 +74,7 @@ class InstanceSet:
                     #print('feature {} will be deleted because all values are the same.'.format(self.features[i]))
 
             if deletedFeatures:
-                stdout.write('The following features will be deleted because they have the same value in all instances: [')
+                stdout.write('deleting features without different values: [')
                 space = False
                 for idxf in deletedFeatures:
                     if space:
@@ -65,13 +83,132 @@ class InstanceSet:
                     space = True
                 stdout.write(']\n')
                 
+            self.delete_features(deletedFeatures)
+    
+            self.branchingOptions = [None for idxf in range(len(self.features))]
+            for idxf in range(len(self.features)):
+                self.branchingOptions[idxf] = sorted(self.featureValues[idxf].items())
+                for ip in range(1, len(self.branchingOptions[idxf])):
+                    self.branchingOptions[idxf][ip] =\
+                    (self.branchingOptions[idxf][ip][0], self.branchingOptions[idxf][ip-1][1] + self.branchingOptions[idxf][ip][1])
 
-            for idx in sorted(deletedFeatures, reverse=True):
-                del self.features[idx]
-                del self.featureValues[idx]
-                for inst in self.instances:
-                    del inst.features[idx]
+            deletedFeatures = []
+            # deleting branching options that leave just a few options 
+            # at one side 
+            for idxf in range(len(self.features)):
+                self.branchingOptions[idxf] =\
+                    [bo for bo in self.branchingOptions[idxf]\
+                    if bo[1]>=min_instances_node and bo[1]<=len(self.instances)-min_instances_node]
+                #print('feature: {} branching options: {}'.format(self.features[idxf], len(self.branchingOptions[idxf])))
+                if not self.branchingOptions[idxf]:
+                    deletedFeatures.append(idxf)
+
+            if deletedFeatures:
+                stdout.write('deleting features that cannot generate good branchings: [')
+                space = False
+                for idxf in deletedFeatures:
+                    if space:
+                        stdout.write(', ')
+                    stdout.write('{}'.format(self.features[idxf]))
+                    space = True
+                stdout.write(']\n')
+
+            self.delete_features(deletedFeatures)
+
+
+
+    def get_branching_values_feature(self, idxf : int, max_branchings = inf, min_instances_node : int = 5) -> List:
+        assert idxf in range(len(self.features))
+        # features and how many instances in this set
+        # have this value
+        fvalues = defaultdict(lambda : 0)
+        for inst in self.instances:
+            fvalues[inst.features[idxf]] += 1
+
+        svalues = sorted(fvalues.items())
+        minv = svalues[0][0]
+        maxv = svalues[-1][0]
+
+        # storing to check later if valid values were chosen
+        allv = set( [sv[0] for sv in svalues] )
+
+        # computing how many elements would stay 
+        # at the lef node (<=) if each value would
+        # be selected for branching
+        for i in range(1, len(svalues)):
+            svalues[i] = (svalues[i][0], svalues[i][1] + svalues[i-1][1])
+        
+        # removing branching values that would not result
+        # in a valid instance since too few instance
+        # would remain in a child
+        svalues = [sv for sv in svalues if sv[1]>=min_instances_node and len(self.instances)-sv[1]>=min_instances_node]
+        if len(svalues) <= max_branchings:
+            return [sv[0] for sv in svalues]
+
+        resv = set()
+
+        # branching values that should be obtained from quantiles
+        qtvalues = max_branchings
+
+        # cutting branchings, if values are numeric, define
+        # uniformly spread values in the interval [minv, max]
+        # and then select branching values close to these values
+        if ( (isinstance(minv, int) or isinstance(minv, float)) and \
+                (isinstance(maxv, int) or isinstance(maxv, float)) ):
+            # number of branching that will be inserted based on average values
+            navvalues = floor(max_branchings/2)
+
+            qtvalues = max_branchings - navvalues
+
+            dif = maxv-minv
+            # values[i][0] contain the values
+            # that ideally would appear
+            # values[i][1] contain the values which are
+            # closest to these and appear in this
+            # instance set
+            values = \
+                [(minv+(dif)*(iv/(navvalues-1)), inf) \
+                for iv in range(navvalues) \
+                ]
+
+            for sv in svalues:
+                for iv in range(len(values)):
+                    val = values[iv]
+                    if abs(difv(sv[0], val[0]))<abs(difv(val[1], val[0])):
+                        values[iv] = (val[0], sv[0])
+
+            for v in values:
+                resv.add(v[1])
+        
+        # adding branching values based on quantiles
+        # values[i][0] indicates the ideal number of elements to produce the i-th cut point
+        # values[i][1][0] indicates current best value to branch to achieve this
+        # values[i][1][1] how many instances would be included is this was
+        # the valued used to branch
+        values = [ ( ((i+1)/(qtvalues+1))*len(self.instances) , (inf,inf) ) for i in range(qtvalues) ]
+        for sv in svalues:
+            for iv in range(len(values)):
+                val = values[iv]
+                if abs(val[0]-sv[1]) < val[1][1]:
+                    values[iv] = (val[0], (sv[0], sv[1]))
+
+        for val in values:
+            resv.add(val[1][0])
+
+        for vr in resv:
+            assert vr in allv
+
+        assert len(resv)<=max_branchings
+
+        return sorted(list(resv))
+
             
+    def delete_features(self, featuresToDelete : List[int]):
+        for idx in sorted(featuresToDelete, reverse=True):
+            del self.features[idx]
+            del self.featureValues[idx]
+            for inst in self.instances:
+                del inst.features[idx]
 
 
     def by_name( self, name: str ):
