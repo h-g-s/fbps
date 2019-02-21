@@ -72,6 +72,22 @@ class Node:
                 bestPS = (ps, rev)
 
         return bestPS
+
+    # similar to previous, but not includes any penalization
+    def compute_best_parameter_setting(self):
+        psettings = self.psettings
+
+        bestPS = (None, inf)
+        for ps in psettings:
+            evps = 0.0
+            for inst in self.instances:
+                evps += inst.results[ps.idx]
+
+            if evps < bestPS[1]:
+                bestPS = (ps, rev)
+
+        return bestPS
+
     
     
     def greedy_branch(self) -> Tuple[int, Any, List[InstanceSet]] :
@@ -113,8 +129,21 @@ class Node:
 
     def draw( self, dot_graph : Digraph, parent_node : 'Node' = None ):
         if self.branch_feat_idx == maxsize:
+            nshape='folder'
+            dot_graph.node_attr.update(style='filled', color='lightyellow')
+
             # no branch only instances and selected parameter
             node_name=self.bestPS[0].setting + '\\n'
+            
+            # comparing average performance improvement comparing to parent node
+            #if node.parent != None:
+            #    assert(len(self.instances) < len(node.parent.instances))
+            #    for inst in self.instances#:
+                    #idxBestPS = self.bestPS[0].idx
+                    #idxBestPSPar = self.parent.bestPS[0].idx
+                    #impr = inst.results[]
+
+
             for i, inst in enumerate(self.instances):
                     node_name += '\\n' + inst.name
  
@@ -125,9 +154,12 @@ class Node:
                     
                     
         else:
+            #node_name = "Perf: {}".format(self.
+            nshape='box3d'
+            dot_graph.node_attr.update(style='filled', color='lightblue2')
             node_name = self.iset.features[self.branch_feat_idx]
-            
-        dot_graph.node(self.node_id, node_name)
+          #  
+        dot_graph.node(self.node_id, node_name, shape=nshape)
         if parent_node!=None:
             feat_name = self.iset.features[parent_node.branch_feat_idx]
             edglabel = '{}'.format(feat_name)

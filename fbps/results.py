@@ -2,6 +2,7 @@ from psetting import PSetting
 from instance import Instance, InstanceSet
 import csv
 from typing import List
+from math import inf
 
 
 class Execution:
@@ -26,6 +27,8 @@ class Results:
         self.psettings = []
         self.psettingByName = dict()
         self.executions = []
+
+        maxv = -inf
                
         with open( resultsFileName ) as resf:
             rcsv = csv.reader(resf, delimiter=',')
@@ -46,6 +49,7 @@ class Results:
                     self.psettingByName[pset] = psetting
  
                 res = float(str(row[2]).strip())
+                maxv = max(abs(res), maxv)
                 exec = Execution(psetting, inst, res)
                 psetting.results.append(res)
                 self.executions.append(exec)
@@ -54,9 +58,11 @@ class Results:
                     self.psettings.append(psetting)
             
             resf.close()
+
+            penalty = maxv*2
         
         for inst in iset.instances:
-            inst.results = [9999999999 for i in self.psettings]
+            inst.results = [penalty for i in self.psettings]
         
         for exec in self.executions:
             exec.instance.results[exec.psetting.idx] = exec.result
