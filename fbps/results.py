@@ -82,6 +82,12 @@ class Results:
             
             resf.close()
 
+        size1 = len(iset.instances)
+        iset.delete_instances_without_experiments()
+        size2 = len(iset.instances)
+        if size2<size1:
+            print('instance set reduced to {} because {} instances did not have any experiment.'.format(len(iset.instances), size1-size2))
+
         for inst in iset.instances:
             inst.results = [inf for i in self.psettings]
         
@@ -92,9 +98,6 @@ class Results:
         nincluded = 0
         average = sumV / len(self.executions)
         avInst = [sumInst[inst.idx][0] / (sumInst[inst.idx][1]+1e-10) for inst in iset.instances]
-        nInstWithoutRes = 0+sum(1 for inst in iset.instances if sumInst[inst.idx][1]==0)
-        if nInstWithoutRes >= 1:
-            print("there are {} instances without any experiment.".format(nInstWithoutRes))
         
         # filling missing values
         for inst in iset.instances:

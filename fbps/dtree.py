@@ -312,7 +312,7 @@ ed = process_time()
 out.write('results of {} different algorithm/parameter settings loaded in {:.2} seconds\n'.format(
     len(results.psettings), ed-st))
 
-iset.delete_instances_without_experiments()
+#iset.delete_instances_without_experiments()
 
 max_depth = int(argv[3].strip())
 
