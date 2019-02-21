@@ -15,13 +15,13 @@ def difv(v1, v2):
     return v1-v2
 
 
-
 class Instance:    
     def __init__(self): 
         self.name = ''
         self.features = []
         self.results = []
         self.idx = 0
+        self.n_experiments = 0
         
 class InstanceSet:
     def __init__(self, featuresFileName : str = '', min_instances_node : int = 5):
@@ -117,6 +117,15 @@ class InstanceSet:
 
             self.delete_features(deletedFeatures)
 
+
+    def delete_instances_without_experiments(self):
+        self.instances = [inst for inst in self.instances if inst.n_experiments>0]
+        del self.instByName
+        self.instByName = dict()
+        for inst in self.instances:
+            self.instByName[inst.name] = inst
+        for i in range(len(self.instances)):
+            self.instances[i].idx = i
 
 
     def get_branching_values_feature(self, idxf : int, max_branchings = inf, min_instances_node : int = 5) -> List:

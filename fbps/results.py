@@ -56,6 +56,7 @@ class Results:
                 
                 inst = iset.by_name(str(row[0]).lstrip().rstrip())
                 pset = str(row[1]).lstrip().rstrip()
+                inst.n_experiments += 1
                 newps = False
                 if pset in self.psettingByName:
                     psetting = self.psettingByName[pset]

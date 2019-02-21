@@ -84,7 +84,7 @@ class Node:
                 evps += inst.results[ps.idx]
 
             if evps < bestPS[1]:
-                bestPS = (ps, rev)
+                bestPS = (ps, evps)
 
         return bestPS
 
@@ -128,13 +128,14 @@ class Node:
 
 
     def draw( self, dot_graph : Digraph, parent_node : 'Node' = None ):
+        self.bestPS = self.compute_best_parameter_setting()
         if self.branch_feat_idx == maxsize:
             nshape='folder'
             dot_graph.node_attr.update(style='filled', color='lightyellow')
 
             
             # comparing average performance improvement comparing to parent node
-            summimpr = 0.0
+            sumpimpr = 0.0
             if self.parent != None:
                 assert(len(self.instances) < len(self.parent.instances))
                 for inst in self.instances:
@@ -143,7 +144,7 @@ class Node:
                     impr = inst.results[idxBestPSPar] -  inst.results[idxBestPSPar]
                     pimpr = min( abs(impr) /  (abs(inst.results[idxBestPSPar]) + 1e-10), 1.0 )
                     sumpimpr += pimpr
-            avpimpr = sumpimpr/len(instances)
+            avpimpr = sumpimpr/len(iset.instances)
 
             node_name = "Av.Improv: {}\\n".format(avpimpr)
 
@@ -310,6 +311,8 @@ results = Results(iset, argv[2])
 ed = process_time()
 out.write('results of {} different algorithm/parameter settings loaded in {:.2} seconds\n'.format(
     len(results.psettings), ed-st))
+
+iset.delete_instances_without_experiments()
 
 max_depth = int(argv[3].strip())
 
