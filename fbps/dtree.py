@@ -17,7 +17,7 @@ max_depth = 3
 # max branches per feature at levels that
 # are not the last one 
 # for branching
-max_branches_feature_level = [12, 24, 48, 96, 192, 192, 192, 192, 192, 192, 192]
+max_branches_feature_level = [7, 14, 48, 96, 192, 192, 192, 192, 192, 192, 192]
 
 class Node:
     """ A node in the decision tree for parameter selection """
@@ -132,16 +132,23 @@ class Node:
             nshape='folder'
             dot_graph.node_attr.update(style='filled', color='lightyellow')
 
-            # no branch only instances and selected parameter
-            node_name=self.bestPS[0].setting + '\\n'
             
             # comparing average performance improvement comparing to parent node
-            #if node.parent != None:
-            #    assert(len(self.instances) < len(node.parent.instances))
-            #    for inst in self.instances#:
-                    #idxBestPS = self.bestPS[0].idx
-                    #idxBestPSPar = self.parent.bestPS[0].idx
-                    #impr = inst.results[]
+            summimpr = 0.0
+            if self.parent != None:
+                assert(len(self.instances) < len(self.parent.instances))
+                for inst in self.instances:
+                    idxBestPS = self.bestPS[0].idx
+                    idxBestPSPar = self.parent.bestPS[0].idx
+                    impr = inst.results[idxBestPSPar] -  inst.results[idxBestPSPar]
+                    pimpr = min( abs(impr) /  (abs(inst.results[idxBestPSPar]) + 1e-10), 1.0 )
+                    sumpimpr += pimpr
+            avpimpr = sumpimpr/len(instances)
+
+            node_name = "Av.Improv: {}\\n".format(avpimpr)
+
+            # no branch only instances and selected parameter
+            node_name += self.bestPS[0].setting + '\\n'
 
 
             for i, inst in enumerate(self.instances):
@@ -298,7 +305,7 @@ ed = process_time()
 out.write('{} instances with {} features loaded in {:.2f} seconds\n'.format(len(iset.instances), len(iset.features), ed-st))
 
 st = process_time()
-out.write('loading experiment results ... ')
+out.write('loading experiment results ... \n')
 results = Results(iset, argv[2])
 ed = process_time()
 out.write('results of {} different algorithm/parameter settings loaded in {:.2} seconds\n'.format(

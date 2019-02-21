@@ -21,6 +21,7 @@ class Instance:
         self.name = ''
         self.features = []
         self.results = []
+        self.idx = 0
         
 class InstanceSet:
     def __init__(self, featuresFileName : str = '', min_instances_node : int = 5):
@@ -59,6 +60,7 @@ class InstanceSet:
                         inst = Instance()
                         inst.name = row[0]
                         inst.features = row[1:].copy()
+                        inst.idx = len(self.instances)
                         self.instances.append(inst)
                         if inst.name in self.instByName:
                             raise Exception('Instance {} appears twice.', inst.name)
