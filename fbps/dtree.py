@@ -14,10 +14,10 @@ min_instances_node = 10
 
 max_depth = 3
 
-# max branches for levels that 
+# max branches per feature at levels that
 # are not the last one 
 # for branching
-max_branches_level = [25, 50, 100, 200]
+max_branches_feature_level = [12, 24, 48, 96, 192, 192, 192, 192, 192, 192, 192]
 
 class Node:
     """ A node in the decision tree for parameter selection """
@@ -75,7 +75,7 @@ class Node:
     
     
     def greedy_branch(self) -> Tuple[int, Any, List[InstanceSet]] :
-        global max_branches_level
+        global max_branches_feature_level
         global min_instances_node
         
         result = (maxsize, None, [])
@@ -84,16 +84,11 @@ class Node:
 
         max_branchings = inf
 
-        if self.depth < max_depth-1:
-            if self.depth < len(max_branches_level):
-                max_branchings = max_branches_level[self.depth]
-            #print('depth {}, exploring at most {} branchings.'.format(self.depth, max_branchings))
-        #else:
-            #print('depth {}, exploring all branches.')
+        max_branchings_feature = max_branches_feature_level[self.depth]
 
         # trying to branch in one feature
         for fidx in range(len(self.features)):
-            values = self.iset.get_branching_values_feature(fidx, max_branchings, min_instances_node)
+            values = self.iset.get_branching_values_feature(fidx, max_branchings_feature, min_instances_node)
             
             for val in values:
                 currCost = 0.0

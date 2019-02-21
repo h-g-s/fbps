@@ -185,12 +185,11 @@ class InstanceSet:
         # values[i][1][0] indicates current best value to branch to achieve this
         # values[i][1][1] how many instances would be included is this was
         # the valued used to branch
-        values = [ ( ((i+1)/(qtvalues+1))*len(self.instances) , (inf,inf) ) for i in range(qtvalues) ]
-        for sv in svalues:
-            for iv in range(len(values)):
-                val = values[iv]
-                if abs(val[0]-sv[1]) < val[1][1]:
-                    values[iv] = (val[0], (sv[0], sv[1]))
+        values = [ ( ((i+1)/(qtvalues+1))*len(self.instances) , (svalues[0][0], svalues[0][1]) ) for i in range(qtvalues) ]
+        for iv in range(len(values)):
+            for sv in svalues:
+                if abs(sv[1]-values[iv][0]) < abs(values[iv][0]-values[iv][1][1]):
+                    values[iv] = (values[iv][0], (sv[0], sv[1]))
 
         for val in values:
             resv.add(val[1][0])
