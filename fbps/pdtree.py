@@ -1,9 +1,11 @@
 from pdataset import *
+import pdataset
 from time import time
 from math import inf
 from sys import argv
 from graphviz import Digraph
 from typing import List
+from multiprocessing import Pool
 
 
 # min_unbalance_penalization 
@@ -21,30 +23,44 @@ min_node_elements = 15000
 MAX_NODES_TREE = sum(2**d for d in range(max_depth-1) )
 
 def parse_arguments( argv : List[str] ):
-    for arg in argv:
-        if arg.startswith('-'):
-            pname = arg.split('-')[1].lower().lstrip().rstrip()
-            pvalue = None
-            if '=' in pname:
-                pvalue = arg.split('=')[1]
-            if pname=='maxDepth':
-                max_depth = int(pvalue)
-            elif pname=='penaltyUnbalanced':
-                penalty_unbalanced = float(pvalue)
-            elif pname=='minNodeElements':
-                min_node_elements = int(pvalue)
+	global max_unbalance_without_penalty
+	global max_depth
+	global min_node_elements
+	for arg in argv:
+		if arg.startswith('-'):
+			pname = arg.split('-')[1].lower().lstrip().rstrip().split('=')[0]
+			pvalue = None
+			if '=' in arg:
+				pvalue = arg.split('=')[1]
+				if pname=='maxDepth'.lower():
+					max_depth = int(pvalue)
+					continue
+				elif pname=='penaltyUnbalanced'.lower():
+					penalty_unbalanced = float(pvalue)
+					continue
+				elif pname=='minNodeElements'.lower():
+					min_node_elements = int(pvalue)
+					continue
+				else:
+					print('unrecognized option: -{}'.format(pname))
+
+def print_parameters():
+	print('execution using the following parameters:')
+	print('\tmaxDepth={}'.format(max_depth))
+	print('\tminNodeElements={}'.format(min_node_elements))
 
 def help():
     print('pdtree dataset [options]')
     print('options')
     print('\t-maxDepth=int, default {} : maximum tree depth'.format(max_depth))
-    print('\t-penaltyUnbalanced=float [0,1], default {} : strength of penalty for unbalanced trees'.format(penalty_unbalanced))
+    #print('\t-penaltyUnbalanced=float [0,1], default {} : strength of penalty for unbalanced trees'.format(penalty_unbalanced))
     print('\t-minNodeElements=int, default{} : minimum required number of records in node'.format(min_node_elements))
 
 def print_parameters():
 	print('parameters:')
 	print('\tmaxDepth: {}'.format(max_depth))
 	print('\tminNodeElements: {}'.format(min_node_elements))
+
 
 class Node:
 	def __init__(self, dataset_ : PDataset):
@@ -78,8 +94,21 @@ class Node:
 		global processedNodes
 		global lastMessage
 		global procn
+		
+		#complete_eval = False
+		#if (self.depth == max_depth-1):
+		#	complete_eval = True
 
-		candidates = self.dataset.candidate_branchings()
+		print('processing node at depth {}'.format(self.depth))
+		
+		candidates = self.dataset.candidate_branchings( )
+
+		if __name__ == '__main__':
+			processors = Pool(4)
+			params = [ (self.dataset, idxf, vf) for idxf, vf in candidates ]
+			results = processors.map( pdataset.evaluate_candidate_branching, params )
+
+		print(results)
 
 		bestBranch = (None, inf)
 		bestSplit = None
@@ -142,10 +171,13 @@ if len(argv)<2:
 
 parse_arguments( argv )
 
+print_parameters()
+
 print('Reading dataset')
 processedNodes = 0
 procn = 0
-ds = read_pdataset(argv[1])
+ds = read_pdataset(argv[1], inf, min_node_elements)
+ds.max_unbalance_without_penalty = max_unbalance_without_penalty
 
 print('Creating decision tree')
 lastMessage = time()

@@ -10,7 +10,14 @@ from time import process_time
 from graphviz import Digraph
 
 # penalize nodes with few samples
-minSamplesNode = 70
+min_instances_node = 10
+
+max_depth = 3
+
+# max branches per feature at levels that
+# are not the last one 
+# for branching
+max_branches_feature_level = [7, 14, 48, 96, 192, 192, 192, 192, 192, 192, 192]
 
 class Node:
     """ A node in the decision tree for parameter selection """
@@ -51,7 +58,7 @@ class Node:
         psettings = self.psettings
 
         penaltyMult = 1.0
-        addP = max(0, (minSamplesNode-len(self.instances)))
+        addP = max(0, (min_instances_node-len(self.instances)))
         penaltyMult += ((addP)/100.0)
 
         bestPS = (None, inf)
@@ -65,23 +72,39 @@ class Node:
                 bestPS = (ps, rev)
 
         return bestPS
+
+    # similar to previous, but not includes any penalization
+    def compute_best_parameter_setting(self):
+        psettings = self.psettings
+
+        bestPS = (None, inf)
+        for ps in psettings:
+            evps = 0.0
+            for inst in self.instances:
+                evps += inst.results[ps.idx]
+
+            if evps < bestPS[1]:
+                bestPS = (ps, evps)
+
+        return bestPS
+
     
     
     def greedy_branch(self) -> Tuple[int, Any, List[InstanceSet]] :
+        global max_branches_feature_level
+        global min_instances_node
         
         result = (maxsize, None, [])
         bestCost = float('inf')
         dtree = self.dtree
-        
+
+        max_branchings = inf
+
+        max_branchings_feature = max_branches_feature_level[self.depth]
+
         # trying to branch in one feature
         for fidx in range(len(self.features)):
-            values = set()
-            
-            for inst in self.instances:
-                values.add(inst.features[fidx])
-                
-            values = sorted(values)
-            values.pop() # last element will not separate
+            values = self.iset.get_branching_values_feature(fidx, max_branchings_feature, min_instances_node)
             
             for val in values:
                 currCost = 0.0
@@ -105,9 +128,30 @@ class Node:
 
 
     def draw( self, dot_graph : Digraph, parent_node : 'Node' = None ):
+        self.bestPS = self.compute_best_parameter_setting()
         if self.branch_feat_idx == maxsize:
+            nshape='folder'
+            dot_graph.node_attr.update(style='filled', color='lightyellow')
+
+            
+            # comparing average performance improvement comparing to parent node
+            sumpimpr = 0.0
+            if self.parent != None:
+                assert(len(self.instances) < len(self.parent.instances))
+                for inst in self.instances:
+                    idxBestPS = self.bestPS[0].idx
+                    idxBestPSPar = self.parent.bestPS[0].idx
+                    impr = inst.results[idxBestPSPar] -  inst.results[idxBestPSPar]
+                    pimpr = min( abs(impr) /  (abs(inst.results[idxBestPSPar]) + 1e-10), 1.0 )
+                    sumpimpr += pimpr
+            avpimpr = sumpimpr/len(iset.instances)
+
+            node_name = "Av.Improv: {}\\n".format(avpimpr)
+
             # no branch only instances and selected parameter
-            node_name=self.bestPS[0].setting + '\\n'
+            node_name += self.bestPS[0].setting + '\\n'
+
+
             for i, inst in enumerate(self.instances):
                     node_name += '\\n' + inst.name
  
@@ -118,9 +162,12 @@ class Node:
                     
                     
         else:
+            #node_name = "Perf: {}".format(self.
+            nshape='box3d'
+            dot_graph.node_attr.update(style='filled', color='lightblue2')
             node_name = self.iset.features[self.branch_feat_idx]
-            
-        dot_graph.node(self.node_id, node_name)
+          #  
+        dot_graph.node(self.node_id, node_name, shape=nshape)
         if parent_node!=None:
             feat_name = self.iset.features[parent_node.branch_feat_idx]
             edglabel = '{}'.format(feat_name)
@@ -252,18 +299,20 @@ if len(argv)<4:
     print('usage: dtree instance_features_file experiments_results_file max_depth [default-setting]')
     exit(1)
 
-out.write('loading problem instances ... ')
+out.write('loading problem instances ... \n')
 st = process_time()
 iset = InstanceSet(argv[1])
 ed = process_time()
-out.write('{} instances loaded in {:.2f} seconds\n'.format(len(iset.instances), ed-st))
+out.write('{} instances with {} features loaded in {:.2f} seconds\n'.format(len(iset.instances), len(iset.features), ed-st))
 
 st = process_time()
-out.write('loading experiment results ... ')
+out.write('loading experiment results ... \n')
 results = Results(iset, argv[2])
 ed = process_time()
 out.write('results of {} different algorithm/parameter settings loaded in {:.2} seconds\n'.format(
     len(results.psettings), ed-st))
+
+#iset.delete_instances_without_experiments()
 
 max_depth = int(argv[3].strip())
 

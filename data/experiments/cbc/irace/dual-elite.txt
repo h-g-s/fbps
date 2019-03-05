@@ -1,0 +1,8 @@
+# 2019-02-15 20:09:10 CET: Elite configurations (first number is the configuration ID; listed from best to worst according to the mean value):
+     .ID. dualize  crash dualp perturb presolve scal spars subs psi pertv passp sprint .PARENT. .ALIVE. .RANK.   .WEIGHT.
+2877 2877       3 idiot6 steep      on       on rows   off 4354  NA    81   -81     NA     1924    TRUE      1 0.33333333
+5331 5331       3 idiot7  auto      on     more rows    on 2298  NA    88  -136     NA     4329    TRUE      2 0.26666667
+4283 4283       3 idiot4 steep      on       on rows   off 4861  NA    82    69     NA     2877    TRUE      3 0.20000000
+4158 4158       3 idiot6 steep      on       on rows   off 3612  NA    65    56     NA     2877    TRUE      4 0.13333333
+3474 3474       3 idiot7  auto      on     more rows    on 4932  NA    93  -167     NA     2853    TRUE      5 0.06666667
+
