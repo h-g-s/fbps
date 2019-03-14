@@ -23,6 +23,7 @@ f.close()
 # lp relaxation computed by gurobi
 lpr=dict()
 f=open('../../instances/mip/relax.csv', 'r')
+f.readline()
 for l in f:
 	sp=l.split(',')
 	iname=sp[0].replace('.mps.gz', '')
@@ -44,10 +45,17 @@ fom=open('missing-cbc-relax.csv', 'w')
 # wrong values
 fwv=open('wrongv.csv', 'w')
 
+# pairs instances,algorithmSettings evaluated
 checkedInstOpt=set()
+
+# different algorithm settings
 opts=set()
+
+# different algorithm options evaluated per instance
 instopts=defaultdict( set )
+
 warninst=set()
+
 timeOuts=set()
 
 nl=0
@@ -64,10 +72,11 @@ for l in f:
 
 	opts.add(sp[1])
 
+	# another line has this result, skipping for now
 	if (iname,sp[1]) in checkedInstOpt:
 		continue
 
-	# maybe another line has this result, skipping for now
+	# timeouts
 	if abs(tm-8000.0)<1e-5:
 		timeOuts.add((iname,sp[1]))
 		continue

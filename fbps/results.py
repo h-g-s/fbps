@@ -46,10 +46,14 @@ class Results:
 
         sumInst = [(0.0, 0) for i in iset.instances]
         maxInst = [-inf for i in iset.instances]
-               
+        
+        first = True
         with open( resultsFileName ) as resf:
             rcsv = csv.reader(resf, delimiter=',')
             for lineNumber, row in enumerate( rcsv ):
+                if first:
+                    first = False
+                    continue
                 if len(row)<3:
                     raise Exception('Results file should have at least 3 columns: instance,algPSetting,result. Could not find it at line {}'.format(lineNumber+1))
                 #print(row[0])
