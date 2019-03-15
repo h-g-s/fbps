@@ -41,7 +41,7 @@ fi
 #echo will run  $EXE $INSTANCE -randomSeed ${SEED} ${CONFIG_PARAMS} primals
 
 startTime=$SECONDS
-$EXE $INSTANCE -randomSeed ${SEED} ${CONFIG_PARAMS} primals 1> $STDOUT 2> $STDERR
+$EXE $INSTANCE.mps.gz -randomSeed ${SEED} ${CONFIG_PARAMS} primals 1> $STDOUT 2> $STDERR
 totalTime=$(($SECONDS - $startTime + 1))
 
 # The output of the candidate $CONFIG_ID should be written in the file 

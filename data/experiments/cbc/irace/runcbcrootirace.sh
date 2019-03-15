@@ -18,7 +18,7 @@ outfile="${iname}${params}.sol"
 outfile=${outfile/--/-m}
 errorfile="${iname}${params}.error"
 errorfile=${outfile/--/-m}
-cbcExe=/opt/cbcopt/bin/cbc
+cbcExe=cbc
 
 rvalue=`cat relaxvalues.csv | grep -i "${iname}.mps.gz," | cut -d ',' -f 2`
 
@@ -27,6 +27,8 @@ rvalue=`cat relaxvalues.csv | grep -i "${iname}.mps.gz," | cut -d ',' -f 2`
 rm -f "$outfile"
 
 utime=`{ time -p timeout ${timeLimit}s ${cbcExe} $1 keepnames off cuts off heur off passf 0 strong 0 trust 0 preprocess off strong 0 trust 0 maxn 0 ${@:2} solu ${outfile} > /dev/null 2> ${errorfile}; } 2>&1 >/dev/null | grep -i user | cut -d ' ' -f 2` 
+
+echo ${cbcExe} $1 keepnames off cuts off heur off passf 0 strong 0 trust 0 preprocess off strong 0 trust 0 maxn 0 ${@:2} solu ${outfile}
 
 #echo will run ${cbcExe} $1 keepnames off cuts off heur off passf 0 strong 0 trust 0 preprocess off strong 0 trust 0 maxn 0 ${@:2} solu ${outfile}
 

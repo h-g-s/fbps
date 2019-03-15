@@ -3,8 +3,8 @@
 dualize				"dualize "		i	(0, 4)
 idiot				"idiot "		i	(-1, 99999999)                                          | crash == "off"
 crash				"crash "		c	(off, on, so, lots, idiot1, idiot2, idiot3, idiot4, idiot5, idiot6, idiot7)
-primalp             "primalp"       c   (auto exa dant part steep change sprint PEsteep PEdantzig)
-psi			        "psi "			r	(-1.1, 1.1)												| dualp == "pesteep" | dualp == "PEdantzig"
+primalp             "primalp "      c   (auto, exa, dant, part, steep, change, sprint, PEsteep, PEdantzig)
+psi			        "psi "			r	(-1.1, 1.1)												| primalp == "pesteep" | primalp == "PEdantzig"
 perturb				"perturb "		c	(on, off)
 presolve			"presolve "		c	(on, off, more)
 scal				"scal "			c	(off, equi, geo, auto, dynamic, rows)

@@ -25,7 +25,7 @@ trainInstancesDir = "/home/haroldo/git/fbps/data/instances/mip/"
 
 trainInstancesFile = "./instances-idiot-80-primals"
 
-configurationsFile="./dual-best.txt" 
+configurationsFile="./primal-best.txt" 
 
 ## Indicates the number of decimal places to be considered for the
 ## real parameters.
@@ -34,7 +34,7 @@ digits = 2
 ## A value of 0 silences all debug messages. Higher values provide
 ## more verbose debug messages.
 
-debugLevel = 2
+debugLevel = 3
 
 ## END of scenario file
 ############################################################################
