@@ -1,1008 +1,1008 @@
-./runcbcroot.sh ../../instances/mip/neos-1396125.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-5107597-kakapo.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/air03.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-555927.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/zib54-UUE.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/sprint07_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-633273.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/eva1Aprime_6x6opt_cte_frame.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/long05_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/long_hidden01_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-631709.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/rocII-5-11.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-1597104.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/graph_40_20_1.rand.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/long_hint01_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_051.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/enlight13.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/attfInstC.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/radiationm40-10-02.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-5188808-nattai.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/br3.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-1582420.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/e20100.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/l152lav.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/Forum-e7dc26bf-753c-4e8e-a07b-63d9a200bc58.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-1120495.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/routing_GCM_0015.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/egout.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/trdta0010.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/nursesched-medium-hint03.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/triptim3.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_20_500_29840_0.1#1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/T1_300_5000_0.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-952987.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/j3014_5.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-4387871-tavua.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/protfold.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/trdta8265.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/cl_06_020_09.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-808214.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/scpk3.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_20_500_30286_0.2#2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ns1116954.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/dano3_3.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/highschool1-aigio.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-4763324-toguru.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_017.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/n030w4-2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/fhnw-binpack4-4.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/leo1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/c05100.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/sct1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/lrsa120.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-631784.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/routing_GCM_0001.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/berlin_5_8_0.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/fiball.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/nrc2rmn120w4_1_4-6-2-6.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR08_VC05_V40b_t120.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/stp3d.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/attfInst1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/fhnw-schedule-pairb-200.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ns1905800.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-954925.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/rocI-4-11.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp10_3idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/pw-myciel4.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gmu-35-50.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/lotsize.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-937815.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_037.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/bnatt400.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gmut-75-50.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-1122047.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/medium_late02_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-1429212.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/e20200.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/bl15_t.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/xhstt-italyp.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/dcmulti.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp08_3idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ns4-pr9.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-807456.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-785899.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ger50_17_trans.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR04_VC05_V17a_t120.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/scpk3_core.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/buildingenergy.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/eilD76.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/cost266-UUE.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp01_2idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/long_late04.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/t1717.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_003.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/germany50-DBM.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/nug08.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/sct32.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/s100.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-547911.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gmu-35-40.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/e401600.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/e201600.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/tr12-30.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/n080w8-1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/momentum3.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_10_250_7815_0.1#2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/stdc0025.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ex1010-pi.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/p2756.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/shiftreg_2_7.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_004.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/pima.sc.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/xhstt-spainp.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos13.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_031.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-1140050.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-3046615-murg.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/core2536-691.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR12_VC05_V70b_t180.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/br1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/A-1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/rout.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/n050w4-3.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/attfInst2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/air05.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/n080w8-7.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/long01_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/eilA101-2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ns1856153.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/Forum-de38545b-6e5e-4e1e-81e7-c316f0fbb359.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/cdma.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/mushroom-best.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/atm20-100.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/bley_xl1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/BMOIPR2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/supportcase10.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp08_2idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/netdiversion.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/shs1023.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_005.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ns1778858.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_plain_10_211_4682_0.01.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/sct5.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ns1663818.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_050.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/k1mushroom.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/fhnw-binpack4-48.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/attfInst5.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-957389.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/Forum-21b6b8af-1736-4383-aa06-634a568ed3f5.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-544324.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_028.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR04_VC05_V17b_t360.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_20_500_30334_0.1#0.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_20_500_29840_0.05#1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-849702.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-1281048.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/qap10.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/mad.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/go19.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/iis-pima-cov.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/graphdraw-domain.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/sprint_hidden03_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/bnatt350.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/nu25-pr12.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/cl_08_020_04.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR08_VC05_V38a_t120.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/e10400.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/grafo_0_1st_phase.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-1456979.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-787933.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/b1c1s1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_10_250_7703_0.05#0.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-3988577-wolgan.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/long02_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/opm2-z10-s4.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/glass.sc.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/long_hidden01.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/routing_GCM_0013.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ds.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ns5149806.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/eilB76.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_027.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/routing_GCM_0007.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_076.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/rentacar.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp18_2idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/reblock67.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/square41.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/istanbul-no-cutoff.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_plain_4_50_889_0.1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/dolom1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ta-BPWC_5_4_10.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/rmatr100-p10.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gesa2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/attfInstF.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/121_147_1345_33.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/b2c1s1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/blp-ic97.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-948268.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/compact_la07.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/sprint01_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/fast0507.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/sprint_hint01_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen-ip002.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/sing359.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-1620770.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/trdnc18.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/scpk2_core.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_20_500_30286_0.1#2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/satellites2-40.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ns2124243.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LpPackingModel1_Dim10.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/d801600.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/uc-case11.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/dano3mip.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_plain_4_47_1642_0.05.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/glass4.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/glass-sc.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_10_250_7703_0.2#0.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp09_2idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/layer2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp12_2idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-3754480-nidda.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_plain_4_47_1580_0.1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/c201600.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/janos-us-DDM.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/t1722.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-4647030-tutaki.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/System02_Example001.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-799838.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ex9.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/System02_Example002.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-5195221-niemur.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-957143.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/misc07.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-1171737.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/sp150x300d.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/stdcd5113.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR12_VC05_V70a_t180.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/binkar10_1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/116_205_1262_66.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-860244.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/attfInst3.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/j12052_10.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/opm2-z10-s2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/n030w4-0.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR02_VC04_V8a_t360.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/draw-product.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/eilB101.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/scpk5_core.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/keller4cpartpp.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_062.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/10teams.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/unitcal_7.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-1441553.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/sprint_hint03_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/manna81.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/cmflsp50-24-8-8.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ns2137859.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/mining.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/n9-3.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-4338804-snowy.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_20_500_30286_0.05#2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/scpj4_scip.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/thor50dday.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/bs24_t.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/sing44.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/tanglegram1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp16_3idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_10_250_7703_0.01#0.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/cap6000.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp17_3idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/medium_hint01_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-2746589-doon.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/mine-90-10.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/iis-bupa-cov.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/p200x1188c.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/macrophage.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp14_2idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/medium_hint02_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/pigeon-13.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/s250r10.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/van.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/attfInstA.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-538867.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/long_hidden03_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_4_100_1328_0.2#1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/product_1st_phase.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/set3-10.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/mkc.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/sprint08_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/trdta5581.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/xmas10.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp09_3idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ns1904248.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/tw-myciel4.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/trdta99.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/nj3.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/chromaticindex1024-7.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/map16715-04.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/512_0.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/attfInstB.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/traininstance6.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/fhnw-schedule-paira-400.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp21_2idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/long_late05_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp02_3idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/nexp-150-20-8-5.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/attfInstD.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/uct-subprob.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/vpphard2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-1354092.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos16.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_035.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_4_100_1605_0.2#0.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/yue20023.1.150.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/keller4cpart.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/m100n500k4r1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/vpphard.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-2657525-crna.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_20_500_30286_0.01#2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-905856.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/dano3_5.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/co-100.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/graph20-20-1rand.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-777800.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/long04_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/toll-like.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/stdc1220.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/hanoi5.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-820879.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/minuteddispatchstrategy.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-3555904-turama.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/n370a.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/rgn.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_046.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR04_VC05_V17a_t360.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-3754224-navua.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/proteindesign121hz512p9.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_plain_4_50_1019_0.01.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/qnet1_o.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp14_3idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/xmas10_1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ns894786.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/pp08aCUTS.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LpPackingModel2_Dim10.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-3656078-kumeu.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/mcsched.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/supportcase42.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/routing_0019.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-1311124.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/sts729.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ns1208400.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/cl_08_020_09.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/rococoC10-001000.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/cl_08_020_01.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR04_VC05_V17a_t180.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/newdano.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/circ10-3.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/da_BPWC_3_8_4_pp.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/f2000.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/triptim1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR04_VC05_V17b_t180.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/256_0.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/sp97ar.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-5049753-cuanza.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/trd445c.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/mainerd_1st_phase.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/physiciansched6-2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/trdnc.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/seymour1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/triptim2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/a10100.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-916792.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/T2_200_2000_0.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/A-4-cuts.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/v150_d30_2hopCDS.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/A-2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/swath.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-825075.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp16_2idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp19_2idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/routing_GCM_0017.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/probportfolio.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-4300652-rahue.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/leo2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ash608gpia-3col.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/nsrand-ipx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/br4.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/rmatr200-p5.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR04_VC05_V17b_t120.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR2_11_DR2_33_VC4_V11a_t60.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/routing_0017.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LpPackingModel1_Dim15.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/rococoB10-011000.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_014.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/j9025_10.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gmut-77-40.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ex10.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_056.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_plain_4_50_999_0.05.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR12_VC05_V70b_t120.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/n050w4-1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/uccase9.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ran16x16.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ic97_potential.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/j9025_6.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/atlanta-ip.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/shipsched.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/T2_300_5000_0.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/attfInst4.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/p0033.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_4_100_1605_0.01#0.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/markshare1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/terra1stphase.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_025.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/routing_0016.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/exp-1-500-5-5.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/cl_06_020_01.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/irish-electricity.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen-ip054.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_4_100_1615_0.2#2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/page-blocks.pictures.sc.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/scpk4_core.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LpPackingModel4_Dim15.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/set1ch.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LpPackingModel4_Dim10.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/chromaticindex512-7.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-709469.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/j3041_1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-1223462.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/T2_300_1000_0.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/DWS012_03.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/opm2-z12-s7.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/1024_0.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/misc06.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-859770.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/rocII-9-11.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/spree_1st_phase.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/radiationm18-12-05.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-3004026-krka.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_077.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp12_3idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp03_2idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp04_3idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-1620807.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp21_3idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_20_500_29840_0.01#1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/cl_08_020_07.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-2978193-inde.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/long_hidden02_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_4_100_1615_0.01#2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/markshare2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/n4-3.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/mik-250-1-100-1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR05_VC05_V25b_t120.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_026.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-956971.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-4413714-turia.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/reblock115.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_080.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/attfInst7.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/sing326.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/bppc4-08.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/j12016_10.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/graph_20_80_1.rand.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/long_late01_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-911970.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-3402294-bobin.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/routing_GCM_0016.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_plain_10_211_3926_0.1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-4738912-atrato.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/maxgasflow.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/splice1k1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/app1-2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/irp.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/erd_FMAS12_1st_phase.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-3381206-awhea.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-860300.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/methanosarcina.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/mine-166-5.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/lectsched-4-obj.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_4_100_1615_0.05#2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/nj2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR04_VC03_V15a_t360.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/nag.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/snp-02-004-104.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/dg012142.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR02_VC05_V8a_t360.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR04_VC03_V15b_t360.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp07-2idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR03_VC03_V13b_t360.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_058.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/pdistuchoa.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/vpm2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp17_2idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/layer4.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/nursesched-sprint02.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR05_VC05_V25a_t180.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gfd-schedulen180f7d50m30k18.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-950242.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/roi2alpha3n4.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/rail01.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/noswot.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/p6b.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR2_22_DR3_333_VC4_V17a_t45.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/medium_hidden05.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/medium_late03.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ns1766074.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/cbs-cta.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/timtab2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/bell5.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_10_250_7815_0.01#2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/hypothyroid-k1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_20_500_30334_0.05#0.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/set3-15.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/a10200.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/dfn-gwin-UUM.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/supportcase18.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/rmatr100-p5.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/n030w4-1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/swath3.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/bnatt500.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/square47.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/fastxgemm-n2r6s0t2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/transportmoment.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/nw04.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/cryptanalysiskb128n5obj14.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp02_2idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/aflow30a.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/page-blocks.horzline.sc.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/monks-2.test.sc.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-1096528.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/eilC76.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/etDecsi.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/n2seq36q.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/wnq-n100-mw99-14.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/pp08a.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ivu06-big.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-5052403-cygnet.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/routing_0026.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_066.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/supportcase6.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/bupa.sc.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/j12048_7.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/routing_GCM_0019.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR05_VC05_V25b_t360.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/csched010.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/trdtaunimep.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/medium_hidden01_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/datt256.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/rail507.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-3083819-nubu.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/v150_d50_2hopCDS.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/e40400.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/opm2-z11-s8.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp13_2idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/biella1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-1330346.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/dc1c.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/assign1-5-8.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/mas74.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/br2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gt2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ns1905797.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/drayage-25-23.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_041.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/khb05250.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR08_VC05_V40b_t180.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/piperout-08.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/seymour-disj-10.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/lectsched-1-obj.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/long_hint03_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-3216931-puriri.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LpPackingModel5_Dim10.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/nj1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp11_2idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/long_hint02_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_071.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ns930473.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp21-2idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/scpk1_core.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/cod105.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-632335.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/bab3.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/lectsched-5-obj.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/yue20013.1.150.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR03_VC03_V10b_t360.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_plain_4_47_1673_0.01.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ta-BPWC_5_7_3.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos5.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/cov1075.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/rmine14.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/mik-250-20-75-4.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ibarra.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-655508.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/mod011.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_048.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-1445765.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/medium_late03_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/proteindesign122trx11p8.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ramos3.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR08_VC05_V40a_t180.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/pigeon-19.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/bell3a.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/BrazilInstance2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-933966.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ns1952667.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/long_hidden04_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/beasleyC3.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_068.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LpPackingModel3_Dim15.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR04_VC03_V15a_t180.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/supportcase19.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ns1854840.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/set5.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/eil33-2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/g.31.8.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/fixnet6.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/23844-T1_0.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/medium01_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-631710.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ns4-pr3.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-631694.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/br5.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/rmine10.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/c10400.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-1601936.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/supportcase26.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR08_VC05_V40a_t120.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/trdca23002.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/mc11.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-506428.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/australia_ABS_L1-CTA.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/trento1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/n3div36.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/c20400.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/sprint_hidden01_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_4_100_1328_0.1#1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/nsr8k.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp10_2idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/sing245.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-1109824.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/msc98-ip.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/nu60-pr9.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_059.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/mas76.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-5104907-jarama.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/scpj1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/bab2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-1215891.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_10_250_8063_0.2#1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/sprint_hidden04_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/drayage-100-23.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/routing_0025.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/medium_hidden03_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/decomp2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-5093327-huahum.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/g200x740i.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/timtab1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/savsched1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/wachplan.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/dc1l.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/net12.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/roi5alpha10n8.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp04_2idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/c60900.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/DWS010_03.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/traininstance2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/nb10tb.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-960392.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_049.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-953928.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/routing_GCM_0009.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/AllColor10.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/rmatr200-p10.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_038.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/sprint_hidden06_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/mod008.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/medium_late01_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/trdHard5600-6.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/blp-ic98.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/rmatr200-p20.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/h80x6320d.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/j3050_8.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/d10200.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-686190.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/sprint_hidden10_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/dws008-01.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/satellites3-40-fs.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-1337307.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/c10100.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/trdcrooms.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-3024952-loue.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/liu.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_4_100_1328_0.01#1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/swath1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_029.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/blend2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/monks-2.train.sc.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/p0282.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/tanglegram2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-4532248-waihi.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR08_VC10_V40a_t120.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/sts405.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/eilD76.2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/flugpl.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/DWS012_02.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/CMS750_4.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/nu120-pr3.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR12_VC05_V70a_t120.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/milo-v12-6-r2-40-1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/qiu.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR2_22_DR3_333_VC4_V14a_t60.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/routing_0018.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/sc2171.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_20_500_30334_0.2#0.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-555884.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/rococoC12-111000.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/supportcase22.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_023.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/dsbmip.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/bab6.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-611135.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_034.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/routing_GCM_0008.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/n3705.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/cl_06_020_03.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/fiber.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/stein45.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ran14x18-disj-8.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/pk1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/3TS1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/reblock420.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_10_250_8063_0.05#1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_20_500_30334_0.01#0.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/j3047_2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/stdnc2018.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/pg5_34.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/n5-3.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/mod010.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/stdc6262p.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/compact_abz8.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/aflow40b.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-1171448.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR05_VC05_V25a_t120.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/markshare_4_0.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_024.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/dale_L1-CTA.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/sct2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-931538.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/layer.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/siena1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/peg-solitaire-a3.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/sprint_late02_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/cl_08_020_02.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_4_100_1615_0.1#2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-791021.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/d10100.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/misc03.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/pg.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-565815.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-3402454-bohle.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/routing_0015.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_072.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/A-5.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_10_250_7703_0.1#0.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/n15-3.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_4_100_1605_0.05#0.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp06_3idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/pigeon-10.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/nrperfan.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/n050w4-0.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/harp2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR08_VC05_V38a_t180.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/opt1217.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR2_11_DR2_33_VC5_V12a_t60.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/satellites3-40.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/medium_hidden02_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/var-smallemery-m6j6.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/pigeon-12.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp06_2idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_4_100_1328_0.05#1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/core4872-1529.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/sing161.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos10.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-785914.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-948346.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/cryptanalysiskb128n5obj16.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/iis-100-0-cov.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp07_2idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/routing_GCM_0023.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/unitcc.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR02_VC03_V7a_t360.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ns903616.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/rd-rplusc-21.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/routing_GCM_0014.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ns1853823.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_032.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/rocII-7-11.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/brazil3.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/reblock354.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-662469.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/stdc3282.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ensemble1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_10_250_8063_0.1#1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/DWS010_02.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/cargo_07.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-3627168-kasai.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/map10.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos859080.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/roll3000.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos18.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos17.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/supportcase7.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/acc-tight5.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/a05100.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/sp98ar.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/compact_abz5.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/sorrell3.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-873061.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ns1111636.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/p0548.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-912023.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/physiciansched3-3.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_10_250_7815_0.2#2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-827175.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_20_500_29840_0.2#1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-934531.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/enlight14.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_10_250_8063_0.01#1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ns1688347.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/bienst2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-957270.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/rococoC11-011100.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gesa3.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/enigma.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/routing_0027.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/cbs_L1-CTA.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/attfInstE.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/tbfp-network.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/rail03.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/121_147_1345_33_pp.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/sprint_hidden08_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-476283.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/opm2-z12-s14.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/set3-20.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-1224597.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/shiftreg_1_4.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/routing_GCM_0002.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/n3seq24.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/routing_GCM_0005.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/sing2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/d20200.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/routing_0024.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/opm2-z7-s2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/disctom.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/eilC76.2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/attfInstG.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/draw-gemcutter.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ns1456591.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/j6029_7.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-848589.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/bab5.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/cl_08_020_03.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ns1631475.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp13_3idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/sp98ir.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/supportcase12.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/lseu.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/R4L4-MIPLIB-0.2-MIP-tree-bounds-50.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_10_250_7815_0.05#2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-2075418-temuka.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/p0201.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/layer3.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ivu52.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gesa2-o.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/trdtatl9220.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/etDecsiDeenp.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/n3-3.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/vpm1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/sprint_hidden05_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/n030w4-3.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/modglob.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/j905_8.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/etDecsiDeenpDeeltEa.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-780889.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/icir97_tension.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/csched008.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_081.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/supportcase33.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ej.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-5114902-kasavu.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/academictimetablesmall.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/rail02.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ns1696083.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LpPackingModel5_Dim15.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-957323.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-912015.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/danoint.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/queens-30.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp20_3idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ds-big.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_4_100_1605_0.1#0.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/fhnw-schedule-slot-200.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/mzzv42z.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/map18.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_042.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/uc-case3.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/bg512142.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/satellites2-60-fs.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/etDecsiDeenpDeelt.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/satellites1-25.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-538916.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/cvs16r128-89.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/scpk1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-1595230.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/germanrr.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/blp-ar98.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-1622252.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-4722843-widden.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/medium_late04_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/pythago_7824.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/csched007.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ns1758913.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ns1830653.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR03_VC03_V16a_t360.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR2_22_DR3_333_VC4_V17a_t60.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-941313.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/momentum1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR02_VC03_V8a_t360.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/a20200.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/30n20b8.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/trdHardCA4500-8.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/qnet1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR05_VC05_V25b_t180.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/routing_0022.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/j12016_10_cuts.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-810286.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/stockholm.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/enlight_hard.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/attfInst6.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/eilA76.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR2_22_DR3_333_VC4_V14a_t45.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-5075914-elvire.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/routing_GCM_0018.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp07_3idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-934278.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/da_BPWC_3_8_4.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/sp98ic.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/d05100.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/pythago_7825.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/cl_08_020_10.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/n3700.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-4954672-berkel.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/pb-simp-nonunif.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/scpj3.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/air04.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_010.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-984165.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/eilB101.2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/cdc7-4-3-2.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/rmine6.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ns1760995.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/robot_sch_plain_10_211_4288_0.05.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/routing_GCM_0022.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/cl_08_020_06.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/routing_GCM_0021.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR04_VC03_V15b_t180.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/medium_hint03_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/mitre.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/p100x588b.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/a1c1s1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_054.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_018.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_065.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/supportcase40.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/Forum-13752f14-5c08-4215-9402-1fe9ccce0cb3.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gesa3_o.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/50v-10.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/long_hidden05_j.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/comp05_2idx.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ns894236.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-1516309.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/usAbbrv-8-25_70.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/r80x800.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/uccase12.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/planar150_s.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR05_VC05_V25a_t360.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/dcmst_v20a50d4.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_052.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/ns1644855.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/satellites2-60.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_040.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-1440225.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-801834.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-1437164.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos-1599274.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/seymour.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/bab1.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/LR1_DR08_VC10_V40b_t120.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/gen_ip_039.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/sp97ic.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/neos8.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
-./runcbcroot.sh ../../instances/mip/mzzv11.mps.gz crash idiot6 dualp steep scal rows spars off subs 4354 pertv 81 passp -81 duals
+./runcbcroot.sh ../../instances/mip/comp01_2idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-1109824.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_20_500_30286_0.01#2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/reblock67.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/dano3_5.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/attfInstE.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/bab3.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/yue20023.1.150.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/supportcase19.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/page-blocks.horzline.sc.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/pigeon-12.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/qnet1_o.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-950242.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-4722843-widden.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_062.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/j9025_6.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/attfInstD.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/rail507.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/roi5alpha10n8.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/comp08_3idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/radiationm18-12-05.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/mod011.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/121_147_1345_33_pp.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/icir97_tension.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR2_22_DR3_333_VC4_V17a_t45.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/yue20013.1.150.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR2_22_DR3_333_VC4_V14a_t60.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/irish-electricity.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_048.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LpPackingModel2_Dim10.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/set3-15.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/bienst2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_037.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_018.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/comp06_3idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/sprint08_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/set1ch.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-5093327-huahum.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_041.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR05_VC05_V25a_t120.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LpPackingModel4_Dim15.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/tw-myciel4.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/graph20-20-1rand.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/n370a.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/sp150x300d.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/cdma.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/e401600.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/graph_20_80_1.rand.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_plain_10_211_4682_0.01.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/r80x800.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/atm20-100.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/sp97ic.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-631694.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/j3050_8.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/k1mushroom.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/comp18_2idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_081.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_20_500_30334_0.01#0.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ds.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/dc1c.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-3754224-navua.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/egout.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/e10400.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/sprint_late02_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/mad.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/iis-100-0-cov.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-934531.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/misc06.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/n030w4-2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/cl_08_020_01.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR02_VC03_V7a_t360.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/attfInstB.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR05_VC05_V25a_t360.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/air03.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/traininstance6.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/netdiversion.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/routing_GCM_0001.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/dsbmip.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/set3-10.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/long_hidden04_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/comp10_2idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/draw-product.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_014.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-807456.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-1456979.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/supportcase6.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-957270.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/monks-2.train.sc.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/medium_late03_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/dc1l.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/mod010.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/116_205_1262_66.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_10_250_8063_0.05#1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/comp17_2idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/nj1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_010.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/lrsa120.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/long_hint02_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-3754480-nidda.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_10_250_7815_0.05#2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/n5-3.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/sprint_hint01_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_20_500_30286_0.2#2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/fhnw-schedule-paira-400.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-632335.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/set5.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/j3041_1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/air05.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/xhstt-spainp.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/b2c1s1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-1582420.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-1620807.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/br2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LpPackingModel1_Dim10.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/sp98ic.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/acc-tight5.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/grafo_0_1st_phase.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ns1856153.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gesa2-o.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/vpm1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/rocII-7-11.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-820879.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ns1760995.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ns1952667.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ns2137859.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/proteindesign121hz512p9.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/etDecsiDeenp.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_029.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ns4-pr9.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/eva1Aprime_6x6opt_cte_frame.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/sing161.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/sc2171.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/Forum-de38545b-6e5e-4e1e-81e7-c316f0fbb359.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/medium_late01_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/queens-30.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-799838.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_10_250_7703_0.01#0.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_059.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/enlight14.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/keller4cpart.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gmu-35-50.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-3988577-wolgan.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/sts729.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-3216931-puriri.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/a10200.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/DWS012_02.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/comp02_3idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR03_VC03_V13b_t360.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/cod105.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/long_late05_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-1223462.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/pp08aCUTS.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen-ip002.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/bl15_t.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/rmine6.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/germany50-DBM.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_058.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/layer2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen-ip054.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-3024952-loue.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_024.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/iis-bupa-cov.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/layer4.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/maxgasflow.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_10_250_7815_0.01#2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/a1c1s1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/drayage-100-23.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ramos3.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/lectsched-1-obj.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/comp21-2idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/comp07_2idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR12_VC05_V70a_t120.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ns2124243.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gt2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_10_250_8063_0.1#1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR04_VC05_V17a_t120.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-1354092.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_039.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/cargo_07.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/stdc6262p.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/cmflsp50-24-8-8.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ns1830653.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ran16x16.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ns1853823.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-780889.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-934278.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/comp09_3idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/c60900.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/comp06_2idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/stein45.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_20_500_30286_0.05#2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/Forum-13752f14-5c08-4215-9402-1fe9ccce0cb3.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/aflow30a.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-953928.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/cap6000.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/routing_0018.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ns1696083.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/n9-3.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/routing_GCM_0013.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/rocI-4-11.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/da_BPWC_3_8_4.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-1122047.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/xhstt-italyp.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/t1722.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-912023.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-916792.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-5188808-nattai.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/pg.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ns1456591.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/core2536-691.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/layer3.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-4300652-rahue.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/dano3mip.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/pg5_34.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_10_250_7815_0.2#2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/mine-166-5.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/CMS750_4.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/comp14_2idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ta-BPWC_5_7_3.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/pigeon-19.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/mining.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/brazil3.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/nsrand-ipx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/traininstance2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_plain_4_47_1673_0.01.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/comp07-2idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-948268.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/eilD76.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gmut-75-50.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-547911.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/modglob.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/c10100.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_4_100_1615_0.05#2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/irp.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/scpk1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/triptim1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/rmatr200-p20.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/System02_Example001.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_051.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/routing_GCM_0002.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_068.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_20_500_30286_0.1#2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/256_0.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-952987.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/mainerd_1st_phase.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/cl_08_020_07.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/enigma.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/rail02.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR02_VC05_V8a_t360.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_042.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/danoint.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/sing2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/j12016_10_cuts.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/nu120-pr3.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ns1905797.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/routing_0024.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR08_VC05_V40a_t120.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_10_250_7703_0.1#0.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/mas74.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/tr12-30.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-1516309.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/drayage-25-23.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-709469.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/scpk3.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/swath1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/cvs16r128-89.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-827175.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/unitcal_7.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/sct32.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/radiationm40-10-02.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/long01_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/sing44.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/reblock354.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/a20200.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/sct1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-1429212.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/air04.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/s250r10.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/decomp2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/satellites2-40.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-565815.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/long_hint03_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-3083819-nubu.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/csched008.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_10_250_8063_0.01#1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/sprint_hidden05_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/stdnc2018.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/dg012142.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/sct2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-5075914-elvire.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/trdnc.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/routing_GCM_0005.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/supportcase12.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/harp2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/flugpl.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/br4.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/routing_0022.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/routing_GCM_0019.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/medium_hidden03_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/markshare1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/eilB76.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/opt1217.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/d05100.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/h80x6320d.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/beasleyC3.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/23844-T1_0.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_035.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/medium_hidden05.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/istanbul-no-cutoff.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_027.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/pima.sc.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/erd_FMAS12_1st_phase.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_plain_4_50_999_0.05.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/trdHardCA4500-8.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/comp12_2idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/routing_GCM_0018.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/cl_08_020_10.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/rail01.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/nu25-pr12.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-662469.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/rococoC11-011100.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/stp3d.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/attfInstA.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/mas76.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/eilB101.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/layer.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-633273.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/Forum-21b6b8af-1736-4383-aa06-634a568ed3f5.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-631709.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/glass-sc.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/wnq-n100-mw99-14.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ran14x18-disj-8.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/lotsize.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/opm2-z10-s2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ensemble1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_plain_10_211_4288_0.05.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/nug08.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/opm2-z11-s8.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-538916.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ns1688347.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/cl_06_020_09.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/leo2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/A-1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/n050w4-3.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/biella1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/T2_300_5000_0.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/cl_08_020_06.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/proteindesign122trx11p8.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/nrperfan.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/n050w4-0.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/d10100.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ic97_potential.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/medium_hint02_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ns894786.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/fast0507.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-801834.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ns1778858.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-5114902-kasavu.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-1215891.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/comp20_3idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/comp12_3idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/stdc0025.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/sing359.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/comp08_2idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/trdta8265.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/g.31.8.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/p200x1188c.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-476283.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/bnatt500.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/g200x740i.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/comp09_2idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/buildingenergy.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-1437164.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gesa2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR02_VC04_V8a_t360.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_4_100_1605_0.1#0.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ns1766074.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/timtab1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/qiu.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/routing_GCM_0007.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR12_VC05_V70b_t120.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/milo-v12-6-r2-40-1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/lseu.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/j905_8.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/rmine10.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ns1854840.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/vpphard2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/sing245.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/medium_hidden01_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ger50_17_trans.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/rd-rplusc-21.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/iis-pima-cov.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ns1208400.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/trdca23002.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/m100n500k4r1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/compact_abz8.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/nursesched-medium-hint03.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/satellites2-60-fs.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_038.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_4_100_1328_0.1#1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/supportcase33.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/comp17_3idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-1224597.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/e20200.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-3627168-kasai.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/e201600.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/comp21_3idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/bg512142.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/mc11.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/comp10_3idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/sprint_hidden01_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR2_11_DR2_33_VC5_V12a_t60.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/pk1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-5104907-jarama.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ns4-pr3.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-4954672-berkel.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/routing_0019.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/satellites3-40-fs.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/routing_GCM_0023.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/long_late04.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/triptim3.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/enlight_hard.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/pythago_7824.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/opm2-z12-s14.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/van.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-931538.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/trdnc18.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ns1644855.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/macrophage.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/disctom.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/blp-ar98.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/DWS012_03.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ivu52.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/lectsched-4-obj.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/savsched1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_plain_4_47_1642_0.05.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/eilA101-2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/p0548.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-3402294-bobin.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/sp98ir.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/BMOIPR2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/scpk2_core.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR05_VC05_V25b_t180.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ns1758913.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/j12016_10.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/splice1k1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/512_0.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/cdc7-4-3-2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/trdta5581.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/comp13_3idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/tanglegram2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-631710.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/dfn-gwin-UUM.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-905856.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/rmine14.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/n3-3.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/timtab2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/rgn.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/msc98-ip.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-791021.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/long_hidden02_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR03_VC03_V10b_t360.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ns1663818.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/attfInstF.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/p6b.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-4763324-toguru.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/cl_08_020_04.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_4_100_1605_0.01#0.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/map10.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/comp02_2idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR2_11_DR2_33_VC4_V11a_t60.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/csched007.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ex10.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-911970.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/stdc3282.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/rococoB10-011000.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR08_VC05_V40b_t120.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/seymour-disj-10.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/eilB101.2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/t1717.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-954925.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_050.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-555884.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/10teams.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/sprint_hidden03_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/rococoC12-111000.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/chromaticindex1024-7.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/medium01_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/p2756.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/uc-case3.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_4_100_1615_0.1#2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/highschool1-aigio.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/medium_late04_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/comp04_3idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/e40400.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/cl_08_020_02.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/trento1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/cryptanalysiskb128n5obj16.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/bley_xl1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_072.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/rout.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_032.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/terra1stphase.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/bs24_t.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/datt256.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_026.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/swath3.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-984165.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/eilA76.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ns894236.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-1171737.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/pw-myciel4.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-1140050.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-544324.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-960392.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ns1116954.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/rentacar.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/atlanta-ip.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/map16715-04.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/shiftreg_1_4.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/hypothyroid-k1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos18.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/br1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-941313.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-1120495.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/trdta0010.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-1441553.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/mod008.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/T1_300_5000_0.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/satellites2-60.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/p100x588b.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/snp-02-004-104.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/da_BPWC_3_8_4_pp.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_080.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/System02_Example002.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/A-5.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR08_VC05_V40b_t180.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ns930473.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/bell3a.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-3046615-murg.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-912015.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/routing_GCM_0017.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/br5.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/50v-10.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/exp-1-500-5-5.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/trd445c.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/fiball.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_plain_10_211_3926_0.1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gesa3_o.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos8.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/glass.sc.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/supportcase22.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/wachplan.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-1599274.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-937815.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/attfInstG.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/comp16_2idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/d10200.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/seymour1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-956971.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-810286.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/rmatr100-p10.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/trdHard5600-6.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_005.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/routing_0016.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/physiciansched6-2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/app1-2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/n080w8-7.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/sp98ar.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR04_VC05_V17b_t120.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_20_500_30334_0.05#0.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos859080.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/blend2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/cl_06_020_01.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_052.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ds-big.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/mik-250-20-75-4.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/a10100.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/b1c1s1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/n3seq24.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/fastxgemm-n2r6s0t2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/mik-250-1-100-1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/j9025_10.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-3555904-turama.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/graph_40_20_1.rand.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/DWS010_03.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-4532248-waihi.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/qap10.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR04_VC03_V15b_t180.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/d801600.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/supportcase10.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/bab2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/DWS010_02.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/e20100.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-1601936.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/physiciansched3-3.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-1396125.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR08_VC10_V40b_t120.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ex9.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/j3047_2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/long02_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/uccase9.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR04_VC03_V15b_t360.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_034.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR05_VC05_V25b_t120.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/eilD76.2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos5.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/p0033.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR03_VC03_V16a_t360.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/attfInst5.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/product_1st_phase.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/dcmulti.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_076.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/lectsched-5-obj.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/fixnet6.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/nw04.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR05_VC05_V25a_t180.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/comp16_3idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/roi2alpha3n4.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/cryptanalysiskb128n5obj14.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/dale_L1-CTA.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-2978193-inde.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ta-BPWC_5_4_10.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/shiftreg_2_7.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/piperout-08.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_20_500_29840_0.01#1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-1330346.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/attfInst4.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-860244.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-933966.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-4387871-tavua.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/long_hidden01_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/stockholm.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/n030w4-1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_plain_4_50_1019_0.01.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/cbs_L1-CTA.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/bnatt400.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/BrazilInstance2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/long_hidden01.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/trdtaunimep.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/routing_GCM_0008.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/compact_la07.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/comp14_3idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_4_100_1615_0.01#2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ash608gpia-3col.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/chromaticindex512-7.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/sprint_hidden06_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-3656078-kumeu.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_20_500_29840_0.05#1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/comp19_2idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/T2_300_1000_0.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/comp13_2idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-825075.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_077.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-957143.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gfd-schedulen180f7d50m30k18.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/rmatr200-p10.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/stdcd5113.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_plain_4_47_1580_0.1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-948346.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/fhnw-schedule-slot-200.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_10_250_7703_0.2#0.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/routing_0025.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-4738912-atrato.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/supportcase26.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/misc07.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_003.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-4647030-tutaki.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/l152lav.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ns1631475.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/c20400.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR04_VC05_V17b_t180.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/nexp-150-20-8-5.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/comp04_2idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/scpj1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-4413714-turia.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR08_VC05_V38a_t120.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/nb10tb.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/manna81.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/xmas10.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/etDecsi.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/tanglegram1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/A-4-cuts.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/bell5.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/long_hidden05_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/page-blocks.pictures.sc.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/map18.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-777800.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/routing_GCM_0009.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LpPackingModel3_Dim15.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/compact_abz5.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LpPackingModel5_Dim10.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_066.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/vpphard.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/sp97ar.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/seymour.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/routing_GCM_0014.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/square47.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-5049753-cuanza.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/opm2-z10-s4.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-5107597-kakapo.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/trdcrooms.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/pigeon-13.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/mitre.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/attfInst3.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-3402454-bohle.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/fhnw-binpack4-4.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/attfInst2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-1171448.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_004.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_4_100_1615_0.2#2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/co-100.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gesa3.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/mzzv11.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/pythago_7825.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/n3705.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/p0282.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/set3-20.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR12_VC05_V70a_t180.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-506428.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/tbfp-network.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/academictimetablesmall.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-2657525-crna.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/germanrr.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/1024_0.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-3381206-awhea.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ej.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-1595230.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/etDecsiDeenpDeelt.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/nu60-pr9.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/vpm2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LpPackingModel1_Dim15.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-611135.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_plain_4_50_889_0.1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-4338804-snowy.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/leo1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/supportcase40.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/comp21_2idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/bab5.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/satellites1-25.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/attfInstC.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/c05100.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/comp11_2idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/sprint_hidden04_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/hanoi5.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/trdta99.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/n3700.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/nag.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/bnatt350.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/scpk1_core.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/medium_hint03_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/transportmoment.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/trdtatl9220.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/dano3_3.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/protfold.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/shs1023.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/square41.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_054.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/draw-gemcutter.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-5052403-cygnet.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/go19.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/scpk3_core.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gmut-77-40.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/s100.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/rmatr100-p5.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/minuteddispatchstrategy.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/bab6.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/scpk4_core.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/uct-subprob.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ns5149806.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-1311124.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-1096528.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/opm2-z12-s7.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/pb-simp-nonunif.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/j3014_5.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/reblock420.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/nursesched-sprint02.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/uccase12.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/circ10-3.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/v150_d50_2hopCDS.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/long05_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-2075418-temuka.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/scpk5_core.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-1281048.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR08_VC10_V40a_t120.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/rmatr200-p5.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/cl_08_020_03.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-787933.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/Forum-e7dc26bf-753c-4e8e-a07b-63d9a200bc58.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-860300.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/fhnw-binpack4-48.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-538867.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_10_250_8063_0.2#1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/thor50dday.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/planar150_s.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/blp-ic98.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/eilC76.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/attfInst1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/long_hidden03_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/bppc4-08.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/graphdraw-domain.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/sct5.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_056.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-686190.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/routing_0027.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/n030w4-0.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/peg-solitaire-a3.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/cbs-cta.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/markshare_4_0.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_20_500_29840_0.2#1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/var-smallemery-m6j6.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/usAbbrv-8-25_70.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/nj2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/misc03.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/comp05_2idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/routing_GCM_0015.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-5195221-niemur.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/probportfolio.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/csched010.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/sprint07_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/medium_hint01_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/nsr8k.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_20_500_30334_0.2#0.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/spree_1st_phase.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/reblock115.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/fiber.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos13.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/rocII-5-11.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/routing_0026.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/mkc.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/glass4.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/n030w4-3.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/supportcase42.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-555927.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/shipsched.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/c10400.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/etDecsiDeenpDeeltEa.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR04_VC05_V17a_t360.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_20_500_30334_0.1#0.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/121_147_1345_33.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ns903616.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos17.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ns1905800.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-2746589-doon.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-785914.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/T2_200_2000_0.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/j12052_10.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/assign1-5-8.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/eilC76.2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_4_100_1605_0.2#0.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/routing_GCM_0021.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/siena1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/cost266-UUE.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/core4872-1529.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-808214.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/medium_late02_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/sts405.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/khb05250.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_4_100_1328_0.05#1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR04_VC03_V15a_t360.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/bupa.sc.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/supportcase18.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/markshare2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-3004026-krka.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_017.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-1597104.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/routing_GCM_0016.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/mcsched.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/rail03.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/enlight13.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-1445765.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR05_VC05_V25b_t360.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/cov1075.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/supportcase7.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/n2seq36q.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR04_VC03_V15a_t180.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/net12.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/mzzv42z.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/attfInst7.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/sing326.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/sorrell3.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/blp-ic97.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_025.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR08_VC05_V38a_t180.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_4_100_1328_0.2#1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/triptim2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/xmas10_1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-849702.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gmu-35-40.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/p0201.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/cl_08_020_09.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/pigeon-10.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR04_VC05_V17a_t180.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/long_late01_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/stdc1220.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/j12048_7.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-1622252.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/n4-3.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/uc-case11.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/AllColor10.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ex1010-pi.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/mine-90-10.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-1337307.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/momentum1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/methanosarcina.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/australia_ABS_L1-CTA.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/scpj3.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/rocII-9-11.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/3TS1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/pp08a.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/roll3000.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/n15-3.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/sprint_hint03_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/sprint_hidden08_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_023.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/noswot.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos16.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/rococoC10-001000.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/monks-2.test.sc.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR2_22_DR3_333_VC4_V17a_t60.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/br3.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-848589.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/keller4cpartpp.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/nj3.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/c201600.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR08_VC05_V40a_t180.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/cl_06_020_03.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_046.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/comp03_2idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-631784.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/aflow40b.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/30n20b8.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/mushroom-best.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/d20200.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-957323.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/liu.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_031.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LpPackingModel5_Dim15.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/swath.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/momentum3.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-873061.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/berlin_5_8_0.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/scpj4_scip.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/satellites3-40.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/opm2-z7-s2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ns1904248.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_049.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-957389.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/nrc2rmn120w4_1_4-6-2-6.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/comp07_3idx.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/f2000.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/dcmst_v20a50d4.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_040.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/routing_0015.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR04_VC05_V17b_t360.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_4_100_1328_0.01#1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ibarra.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_10_250_7703_0.05#0.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-785899.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/qnet1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/n080w8-1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/sprint_hidden10_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/attfInst6.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/eil33-2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LpPackingModel4_Dim10.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/dws008-01.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/dolom1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_065.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-1440225.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/newdano.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_028.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR02_VC03_V8a_t360.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/toll-like.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/gen_ip_071.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/bab1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/n3div36.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ns1111636.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/medium_hidden02_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-655508.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/routing_0017.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/j6029_7.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/a05100.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/n050w4-1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR1_DR12_VC05_V70b_t180.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/routing_GCM_0022.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/long_hint01_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/unitcc.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/sprint01_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/ivu06-big.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-859770.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/long04_j.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos10.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/binkar10_1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/zib54-UUE.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/pdistuchoa.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/fhnw-schedule-pairb-200.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/neos-1620770.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/A-2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/R4L4-MIPLIB-0.2-MIP-tree-bounds-50.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_10_250_7815_0.1#2.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_4_100_1605_0.05#0.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/LR2_22_DR3_333_VC4_V14a_t45.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/robot_sch_syn_plain_20_500_29840_0.1#1.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/v150_d30_2hopCDS.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/janos-us-DDM.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
+./runcbcroot.sh ../../instances/mip/medium_late03.mps.gz crash idiot7 presolve more scal rows pertv 93 passp -167 subs 4932 duals
