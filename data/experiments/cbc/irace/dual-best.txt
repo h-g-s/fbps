@@ -11,5 +11,7 @@ dualize crash  dualp   psi   perturb presolve scal    spars pertv passp sprint s
     3   idiot5 pesteep 1.0   on      on       geo     on    50    5     -1     3
     3   off    pesteep 0.45  on      on       auto    on    -70	  5	-1     3
     0	off    pesteep 0.13  on      off      dynamic off   -2718 NA	3556   7714
+    0   off    pesteep 0.53  off     on       equi    on    NA    -189  488    5852
+    0   off    pesteep 0.53  on      on       equi    on    70    -189  488    5852
        
 
