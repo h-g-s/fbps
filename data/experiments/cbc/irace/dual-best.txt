@@ -15,3 +15,4 @@ dualize crash  dualp   psi   perturb presolve scal    spars pertv passp sprint s
     0   off    pesteep 0.53  off     on       equi    on    NA    -189  488    5852
     0   off    pesteep 0.53  on      on       equi    on    70    -189  488    5852
     3   idiot2 pesteep 0.30  on      on       rows    off   -2334 -154  NA     6168
+    0   idiot6 pesteep 0.35  on      more     equi    on    -1866 34    NA     7618
